@@ -123,19 +123,24 @@ JavaScript는 웹 개발, 서버 개발, 모바일 앱 개발, 데스크탑 앱 
 변수, 함수, 객체, 배열, 조건문, 반복문, 이벤트, 비동기 처리 등이 자바스크립트에서 중요한 개념입니다.
 
 변수
+ ``` jsx
 var x = 5;
 var y = 10;
 var sum = x + y;
 console.log(sum); // 결과: 15
+ ```
 
-함수
+함수 
+``` jsx
 function greet(name) {
   console.log("안녕하세요, " + name + "님!");
 }
 
 greet("철수"); // 결과: 안녕하세요, 철수님!
+``` 
 
 객체
+``` jsx
 var person = {
   name: "영희",
   age: 25,
@@ -145,15 +150,17 @@ var person = {
 console.log(person.name); // 결과: 영희
 console.log(person.age); // 결과: 25
 console.log(person.gender); // 결과: 여성
-
+``` 
 
 배열
+``` jsx
 var fruits = ["사과", "바나나", "딸기"];
 console.log(fruits[0]); // 결과: 사과
 console.log(fruits.length); // 결과: 3
 
-
+``` 
 조건문
+``` jsx
 var hour = new Date().getHours();
 var greeting;
 
@@ -167,20 +174,24 @@ if (hour < 12) {
 
 console.log(greeting);
 
-
+``` 
 반복문
+``` jsx
 for (var i = 0; i < 5; i++) {
   console.log("숫자: " + i);
 }
-
+``` 
 
 이벤트
+``` jsx
 document.getElementById("myButton").addEventListener("click", function() {
   console.log("버튼이 클릭되었습니다!");
 });
-
+``` 
 
 비동기 처리
+``` jsx
 setTimeout(function() {
   console.log("이 코드는 2초 후에 실행됩니다.");
 }, 2000);
+``` 
