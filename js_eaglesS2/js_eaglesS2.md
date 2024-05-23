@@ -60,3 +60,127 @@
             }
             console.log(product);
             ```
+
+
+
+**JavaScript란?**
+
+JavaScript는 웹 페이지를 동적으로 만들고, 특정 상황(event)에 따라 작동하도록 할 수 있는 프로그래밍 언어입니다. 원래 LiveScript라고 불렸지만, Java의 인기를 활용하기 위해 이름이 변경되었습니다. 브라우저에는 '자바스크립트 가상 머신'이라 불리는 엔진이 내장되어 있으며, JavaScript는 브라우저뿐만 아니라 서버와 다양한 디바이스에서도 실행할 수 있습니다.
+
+**JavaScript의 기능**
+JavaScript는 다음과 같은 기능을 제공합니다:
+- 모바일 앱 개발
+- 업무 자동화
+- 데이터 시각화
+
+**자바스크립트 엔진의 동작 원리**
+자바스크립트 엔진의 기본 동작 원리는 다음과 같습니다:
+1. 엔진이 스크립트를 읽습니다 (파싱).
+2. 읽어 들인 스크립트를 기계어로 전환합니다 (컴파일).
+3. 기계어로 전환된 코드가 실행됩니다.
+
+**자바스크립트의 제약 사항**
+JavaScript는 보안을 위해 다음과 같은 제약을 갖습니다:
+- 웹페이지 내 스크립트는 임의의 파일을 읽거나 쓸 수 없습니다.
+- 특정 상황에서만 파일 접근이 가능합니다 (예: 사용자가 파일을 선택할 때).
+- 카메라나 마이크 접근은 사용자의 명시적인 허가가 필요합니다.
+- 동일 출처 정책(Same Origin Policy)에 의해 다른 도메인의 페이지에 접근할 수 없습니다.
+
+**JavaScript의 장점과 단점**
+JavaScript는 다음과 같은 장점과 단점을 가집니다:
+- 장점:
+  - HTML/CSS와 완전히 통합 가능
+  - 간단한 작업을 쉽게 처리
+  - 모든 주요 브라우저에서 지원
+  - 클라이언트와 서버 측 모두에서 사용 가능
+- 단점:
+  - 연산량이 많은 작업에서는 속도가 느릴 수 있음
+  - 클라이언트 브라우저에 대한 액세스로 인해 보안 문제 발생 가능
+
+**JavaScript 사용 예시**
+JavaScript는 웹사이트에 동적 기능과 상호작용을 추가하는 데 사용됩니다. 예시로는 Google 애널리틱스 코드, 드롭다운 메뉴, 대화형 캘린더 등이 있습니다.
+
+**Java와 JavaScript의 차이**
+Java와 JavaScript는 다른 용도와 목적을 가진 별개의 언어입니다. JavaScript 엔진은 JavaScript 코드를 실행하는 프로그램으로, 현대적 엔진은 JIT 컴파일을 사용하여 성능을 향상시킵니다.
+
+**자바스크립트의 특징**
+- 동적 언어: JavaScript는 동적으로 형식을 검사하고 변수를 선언할 수 있는 인터프리터 언어입니다.
+- 이벤트 기반: JavaScript는 이벤트를 처리하여 사용자와 상호작용할 수 있습니다.
+- 크로스 플랫폼: JavaScript는 대부분의 웹 브라우저에서 동작하며, Node.js와 같은 런타임 환경을 통해 서버에서도 실행할 수 있습니다.
+- 객체 지향: JavaScript는 프로토타입 기반의 객체 지향 언어로, 객체와 클래스를 사용하여 코드를 구조화할 수 있습니다.
+- 비동기 처리: JavaScript는 콜백 함수, 프로미스, async/await를 통해 비동기 작업을 처리할 수 있습니다.
+
+**자바스크립트의 용도**
+JavaScript는 웹 개발, 서버 개발, 모바일 앱 개발, 데스크탑 앱 개발, 게임 개발 등 다양한 용도로 사용됩니다.
+
+**자바스크립트의 동작 원리**
+- 파싱: 자바스크립트 엔진이 코드를 읽고 구문 트리(Syntax Tree)로 변환합니다.
+- 컴파일: 구문 트리를 바이트코드나 기계어로 컴파일합니다.
+- 실행: 컴파일된 코드를 실행합니다.
+- 최적화: 실행 중에 코드의 성능을 최적화합니다. JIT(Just-In-Time) 컴파일러를 사용하여 실행 중인 코드를 동적으로 최적화할 수 있습니다.
+
+**주요 개념**
+변수, 함수, 객체, 배열, 조건문, 반복문, 이벤트, 비동기 처리 등이 자바스크립트에서 중요한 개념입니다.
+
+변수
+var x = 5;
+var y = 10;
+var sum = x + y;
+console.log(sum); // 결과: 15
+
+함수
+function greet(name) {
+  console.log("안녕하세요, " + name + "님!");
+}
+
+greet("철수"); // 결과: 안녕하세요, 철수님!
+
+객체
+var person = {
+  name: "영희",
+  age: 25,
+  gender: "여성"
+};
+
+console.log(person.name); // 결과: 영희
+console.log(person.age); // 결과: 25
+console.log(person.gender); // 결과: 여성
+
+
+배열
+var fruits = ["사과", "바나나", "딸기"];
+console.log(fruits[0]); // 결과: 사과
+console.log(fruits.length); // 결과: 3
+
+
+조건문
+var hour = new Date().getHours();
+var greeting;
+
+if (hour < 12) {
+  greeting = "좋은 아침입니다!";
+} else if (hour < 18) {
+  greeting = "좋은 오후입니다!";
+} else {
+  greeting = "좋은 저녁입니다!";
+}
+
+console.log(greeting);
+
+
+반복문
+for (var i = 0; i < 5; i++) {
+  console.log("숫자: " + i);
+}
+
+
+이벤트
+document.getElementById("myButton").addEventListener("click", function() {
+  console.log("버튼이 클릭되었습니다!");
+});
+
+
+비동기 처리
+setTimeout(function() {
+  console.log("이 코드는 2초 후에 실행됩니다.");
+}, 2000);
