@@ -50,7 +50,8 @@ Js_Eagles와 함께라면 미래는 더욱 밝고, 무한한 가능성이 열립
 <ul>
     <li><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML" width="30" height="30"></a><sub>HTML</sub></li></br>
     <li><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" width="30px" height="30px"></a><sub>CSS</sub></li></br>
-    <li><img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" width="30px" height="30px"></a><sub>VUE</sub></li>
+    <li><img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" width="30px" height="30px"></a><sub>VUE</sub></li></br>
+    <li><img src="https://github.com/get-icon/geticon/raw/master/icons/json.svg" width="30px" height="30px"></a><sub>JSON</sub></li>
 </ul>
 
 <br><br>
