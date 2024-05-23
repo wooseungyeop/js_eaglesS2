@@ -9,7 +9,7 @@
 <div>
   <p>
     - 프로젝트 팀에 관한 소개글 -
-    프로젝트 목표 개발 기간 : 24.05.15 - 06.05
+    프로젝트 목표 개발 기간 : 24.05.23 - 07.00
   </p>
 </div>
 <br><br>
@@ -19,8 +19,9 @@
 </div>
 
 <ul>
-    <li><a href="https://www.java.com/" title="Java"><img src="https://github.com/get-icon/geticon/raw/master/icons/java.svg" alt="Java" width="30" height="30"></a><sub>JAVA</sub></li></br>
-    <li><a href="https://dev.mysql.com/" title="MySQL"><img src="https://github.com/get-icon/geticon/raw/master/icons/mysql.svg" alt="MySQL" width="30px" height="30px"></a><sub>MYSQL</sub></li>
+    <li><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML" width="30" height="30"></a><sub>HTML</sub></li></br>
+    <li><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" width="30px" height="30px"></a><sub>CSS</sub></li></br>
+    <li><img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" width="30px" height="30px"></a><sub>VUE</sub></li>
 </ul>
 
 <br><br>
