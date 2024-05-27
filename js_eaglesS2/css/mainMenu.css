@@ -1,3 +1,7 @@
+/* 
+ comment - html, body에 css는 추가를 하지 않습니다.
+           html, body에 스타일을 넣는경우 백 그라운드 이미지 or 색상을 넣는 경우를
+           제외한 어떠한 경우에도 사용을 하지 않습니다.
 html {
   display: flex;
   flex-direction: column;
@@ -15,18 +19,19 @@ body {
   height:100dvh;
 
 }
+ */
 
 .All_Box {
   width: 800px;
-  height:100%;
-  margin:0 auto;
+  height: 100%;
+  margin: 0 auto;
 }
 
 footer {
   height: 20%;
   width: 800px;
-  position : fixed;
-  bottom : 0;
+  position: fixed;
+  bottom: 0;
 }
 
 .Footer-Container {
@@ -62,7 +67,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+
 }
 
 .Footer_Info_Box {
@@ -103,6 +108,7 @@ footer {
   border-radius: 30px;
   margin: 5px;
 }
+
 .PlusButton a {
   display: flex;
   justify-content: center;
@@ -122,6 +128,7 @@ footer {
   font: #fff;
   margin: 5px;
 }
+
 .CouponButton a {
   display: flex;
   justify-content: center;
@@ -141,6 +148,7 @@ footer {
   border: 1px solid #000;
   margin: 5px;
 }
+
 .DelButton a {
   display: flex;
   justify-content: center;
@@ -159,6 +167,7 @@ footer {
   background-color: red;
   margin: 5px;
 }
+
 .OrderButton a {
   display: flex;
   justify-content: center;
