@@ -1,0 +1,169 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:100dvh;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height:100dvh;
+
+}
+
+.All_Box {
+  width: 800px;
+  height:100%;
+  margin:0 auto;
+}
+
+footer {
+  height: 20%;
+  width: 800px;
+  position : fixed;
+  bottom : 0;
+}
+
+.Footer-Container {
+  height: 100%;
+  border: 1px solid #000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Footer_Top {
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Footer_Top_left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.Footer_Top_left div {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.Footer_Top_Right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.Footer_Info_Box {
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #000;
+  align-items: center;
+}
+
+.Footer_Info_left {
+  flex: 3.5;
+}
+
+.Footer_Info_middle {
+  flex: 1;
+}
+
+.Footer_Info_Right {
+  flex: 1;
+}
+
+.Footer_Under {
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #000;
+  align-items: center;
+}
+
+
+.PlusButton {
+  width: 8%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 5px;
+}
+.PlusButton a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.CouponButton {
+  width: 36%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 30px;
+  font: #fff;
+  margin: 5px;
+}
+.CouponButton a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.DelButton {
+  width: 20%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid #000;
+  margin: 5px;
+}
+.DelButton a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.OrderButton {
+  width: 36%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: red;
+  margin: 5px;
+}
+.OrderButton a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
