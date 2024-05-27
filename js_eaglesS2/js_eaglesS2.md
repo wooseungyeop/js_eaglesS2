@@ -1,3 +1,18 @@
+<div>
+
+ <p id="목차"><p>  
+ <H2> 목차 </H2>
+
+ </div>
+    <a href="#part1"> part 1. 승엽님 파트</a></br>
+    <a href="#part2"> part 2. 은석님 파트</a></br>
+    <a href="#part3"> part 3. 주순태 파트</a></br>
+    <a href="#part4"> part 4. 서현님 파트</a></br>
+    <a href="#part5"> part 5. 정한님 파트</a>
+
+---
+
+<p id="part1"><p>
 # javascript
 
 1. 자바 스크립트 : 동적인 기능을 구현하기 위한 프로그래밍 언어 이벤트 기반으로 동작하며, 외부이벤트에 반응하여 동작함.
@@ -61,9 +76,11 @@
             console.log(product);
             ```
 
+<a href="#목차"> 목차로</a>
 
 ---
 
+<p id="part2"><p>
 이은석 정리 내용
 
 **JavaScript란?**
@@ -198,9 +215,17 @@ setTimeout(function() {
   console.log("이 코드는 2초 후에 실행됩니다.");
 }, 2000);
 ``` 
+<a href="#목차"> 목차로</a>
 
 ---
+
+<p id="part3"><p>
 주순태 정리 내용
+
+# 시작
+> 자바스크립트를 처음 시작하면서 기본적인 것들을 정리하며 배워보고 간단한 프로그램을 작성할 수 있도록
+공부를 시작해 보겠다.
+
 ## 1. 자바스크립트를 배워야 하는 이유
 
 > 자바스크립트를 배워야 하는 이유는 여러가지 이고, 그중 몇가지를 알아보겠다.
@@ -315,7 +340,7 @@ setTimeout(function() {
   + **문자열(String) **
   문자열 데이터 타입은 텍스트를 나타냅니다. 작은따옴표(''), 큰따옴표(""), 백틱(``)으로 문자열을 감싸서 표현한다.
   <br>
-  + **불리언(Boolean) **
+  + **논리형(Boolean) **
   불리언 데이터 타입은 참(true) 또는 거짓(false)을 나타낸다. 주로 조건문과 논리 연산에 사용된다. 예를 들어, true, false가 여기에 해당한다.
   <br>
   + **null** 
@@ -366,141 +391,607 @@ setTimeout(function() {
 
    + 위의 예시에서 'fruits' 배열은 과일 이름을 포함하고 있으며, 각 과일은 배열의 순서에 따라 인덱스로 접근할 수 있다.
 
+---
 ### 3.3. 연산자(Operators)
 >연산자 부분은 간단한 예시화 함께 공부해 보겠다.
 
 #### 3.3.1 산술 연산자 (Arithmetic Operators)
 
- + 덧셈: +
+ + **덧셈 : '+'**
+ > ```javascript
  > let a = 5 + 3; // 8
- 
- + 뺄셈: -
+ >```
+ + **뺄셈 : '-'**
+ > ```javascript
  > let a = 5 - 3; // 2
- 
- + 곱셈: *
+ > ```
+ + **곱셈 : '*'**
+ >```javascript
  > let a = 5 * 3; // 15
-
- + 나눗셈: /
+ > ```
+ + **나눗셈 : '/'**
+ > ```javascript
  > let a = 5 / 3; // 1.6667
-
- + 나머지: %
+ > ```
+ + **나머지 : '%'**
+ > ```javascript
  > let a = 5 % 3; // 2
-
- + 증가: ++
+ > ```
+ + **증가 : '++'**
+ > ```javascript
  > let a = 5;
- > a++; // a는 이제 6
-
- + 감소: --
+ >  a++; // a는 이제 6
+ > ```
+ + **감소 : '--'**
+ > ```javascript
  > let a = 5;
- > a--; // a는 이제 4
-
+ >  a--; // a는 이제 4
+ > ```
+ 
 #### 3.3.2 할당 연산자 (Assignment Operators)
 
- + 할당: =
+ + **할당 : '='**
+ > ```javascript
  > let a = 5;
-
- + 더해서 할당: +=
+ > ```
+ + **더해서 할당 : '+='**
+ > ```javascript
  > let a = 5;
- > a += 3; // a는 이제 8
-
- + 빼서 할당: -=
+ >  a += 3; // a는 이제 8
+ > ```
+ + **빼서 할당 : '-='**
+ > ```javascript
  > let a = 5;
- > a -= 3; // a는 이제 2
-
- + 곱해서 할당: *=
+ >  a -= 3; // a는 이제 2
+ > ```
+ + **곱해서 할당 : '*='**
+ > ```javascript
  > let a = 5;
- > a *= 3; // a는 이제 15
-
- + 나눠서 할당: /=
+ >  a *= 3; // a는 이제 15
+ > ```
+ + **나눠서 할당 : '/='**
+ > ```javascript
  > let a = 5;
- > a /= 3; // a는 이제 1.6667
-
- + 나머지를 구해서 할당: %=
+ >  a /= 3; // a는 이제 1.6667
+ > ```
+ + **나머지를 구해서 할당 : '%='**
+ > ```javascript
  > let a = 5;
- > a %= 3; // a는 이제 2
-
+ >  a %= 3; // a는 이제 2
+ > ```
+ 
 #### 3.3.3 비교 연산자 (Comparison Operators)
 
- + 같음: ==
+ + **같음 : '=='**
+ > ```javascript
  > 5 == "5"; // true (값만 비교)
- 
- + 엄격하게 같음: ===
+ > ```
+ + **엄격하게 같음 : '==='**
+ > ```javascript
  > 5 === "5"; // false (값과 타입 모두 비교)
-
- + 다름: !=
+ > ```
+ + **다름 : '!='**
+ > ```javascript
  > 5 != "5"; // false (값만 비교)
-
- + 엄격하게 다름: !==
+ > ```
+ + **엄격하게 다름 : '!=='**
+ > ```javascript
  > 5 !== "5"; // true (값과 타입 모두 비교)
-
- + 작음: <
+ > ```
+ + **작음 : '<'**
+ > ```javascript
  > 5 < 3; // false
-
- + 작거나 같음: <=
+ > ```
+ + **작거나 같음 : '<='**
+ > ```javascript
  > 5 <= 5; // true
-
- + 큼: >
+ > ```
+ + **큼 : '>'**
+ > ```javascript
  > 5 > 3; // true
-
- + 크거나 같음: >=
+ > ```
+ + **크거나 같음 : '>='**
+ > ```javascript
  > 5 >= 5; // true
-
+ > ```
+ 
 #### 3.3.4 논리 연산자 (Logical Operators)
 
- + 논리 AND: &&
+ + **논리 AND : '&&'**
+ > ```javascript
  > true && false; // false
-
- + 논리 OR: ||
+ > ```
+ + **논리 OR : '||'**
+ > ```javascript
  > true || false; // true
-
- + 논리 NOT: !
+ > ```
+ + **논리 NOT : '!'**
+ > ```javascript
  > !true; // false
-
+ > ```
+ 
 #### 3.3.5 문자열 연산자 (String Operators)
 
- + 문자열 연결: +
+ + **문자열 연결 : '+'**
+ > ```javascript
  > let greeting = "Hello, " + "world!"; // "Hello, world!"
-
+ > ```
 #### 3.3.6 삼항 연산자 (Ternary Operator)
 
- + 조건 ? 참일 때 값 : 거짓일 때 값
+ + **조건 ? 참일 때 값 : 거짓일 때 값**
+ > ```javascript
  > let age = 18;
- > let canVote = (age >= 18) ? "Yes" : "No"; // "Yes"
-
+ >  let canVote = (age >= 18) ? "Yes" : "No"; // "Yes"
+ > ```
+ 
 #### 3.3.7 타입 연산자 (Type Operators)
 
- + typeof: 변수의 타입을 반환
+ + **typeof: 변수의 타입을 반환**
+ > ```javascript
  > typeof 5; // "number"
- > typeof "hello"; // "string"
-
- + instanceof: 객체가 특정 클래스의 인스턴스인지 확인
+ >  typeof "hello"; // "string"
+ > ```
+ + **instanceof : 객체가 특정 클래스의 인스턴스인지 확인**
+ > ```javascript
  > let date = new Date();
- > date instanceof Date; // true
-
+ >  date instanceof Date; // true
+ > ```
 #### 3.3.8 비트 연산자 (Bitwise Operators)
 
- + AND: &
+ + **AND : '&'**
+ > ```javascript
  > 5 & 1; // 1
+ > ```
 
- + OR: |
+ + **OR : '|'**
+ > ```javascript
  > 5 | 1; // 5
-
- + XOR: ^
+ > ```
+ + **XOR : '^'**
+ > ```javascript
  > 5 ^ 1; // 4
-
- + NOT: ~
+ > ```
+ + **NOT : '~'**
+ > ```javascript
  > ~5; // -6
-
- + 왼쪽 시프트: <<
+ > ```
+ + **왼쪽 시프트 : '<<'**
+ > ```javascript
  > 5 << 1; // 10
-
- + 오른쪽 시프트: >>
+ > ```
+ + **오른쪽 시프트 : '>>'**
+ > ```javascript
  > 5 << 1; // 10
-
- + 부호 없는 오른쪽 시프트: >>>
+ > ```
+ + **부호 없는 오른쪽 시프트 : '>>>'**
+ > ```javascript
  > 5 >>> 1; // 2
+ > ```
+ 
+### 3.4. 조건문(Conditional Statements)
+> 자바스크립트의 조건문은 프로그램의 흐름을 제어하는 데 사용되며, 특정조건에 따라 다른 코드 블록을 실행할 수 있도록 한다.
 
-ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ서현
+#### 3.4.1. if 문 (if Statement)
+if 문은 주어진 조건이 참(true)일 때 코드 블록을 실행한다.
+>```javascript
+>if (condition) {
+>    // condition이 참일 때 실행되는 코드
+>}
+>```
++ if 문 예제
+>```javascript
+>let age = 18;
+>
+>if (age >= 18) {
+>    console.log("You are an adult."); // 출력 : "You are an adult."
+>}
+>```
+
+#### 3.4.2. else 문 (else Statement)
+else 문은 if 문의 조건이 거짓(false)일 때 실행되는 코드 블록을 정의한다.
+>```javascript
+>if (condition) {
+>    // condition이 참일 때 실행되는 코드
+>} else {
+>    // condition이 거짓일 때 실행되는 코드
+>}
+>```
++ else 문 예제
+>```javascript
+>let age = 16;
+>
+>if (age >= 18) {
+>    console.log("You are an adult.");
+>} else {
+>    console.log("You are a minor."); // 출력 : "You are a minor."
+>}
+>```
+
+#### 3.4.3. else if 문 (else if Statement)
+else if 문은 여러 조건을 확인할 때 사용합니다. 첫 번째 조건이 거짓일 때, 다음 조건을 확인한다.
+> ```javascript
+> if (condition1) {
+>    // condition1이 참일 때 실행되는 코드
+>} else if (condition2) {
+>    // condition1이 거짓이고, condition2가 참일 때 실행되는 코드
+>} else {
+>    // 위의 모든 조건이 거짓일 때 실행되는 코드
+>}
+> ```
++ else if 문 예제
+> ```javascript
+> let score = 85;
+>
+>if (score >= 90) {
+>    console.log("Grade: A");
+>} else if (score >= 80) {
+>    console.log("Grade: B"); // "Grade: B"
+>} else if (score >= 70) {
+>    console.log("Grade: C");
+>} else {
+>    console.log("Grade: F");
+>}
+> ```
+
+#### 3.4.4. switch 문 (switch Statement)
+switch 문은 하나의 변수나 표현식의 값에 따라 여러 코드 블록 중 하나를 실행한다.
+> ```javascript
+> switch (expression) {
+>    case value1:
+>        // expression이 value1과 일치할 때 실행되는 코드
+>        break;
+>    case value2:
+>        // expression이 value2와 일치할 때 실행되는 코드
+>        break;
+>    // 추가적인 case 문들
+>    default:
+>        // 모든 case가 일치하지 않을 때 실행되는 코드
+>}
+> ```
++ switch 문 예제
+> ```javascript
+> let fruit = "apple";
+>
+>switch (fruit) {
+>    case "banana":
+>        console.log("This is a banana.");
+>        break;
+>    case "apple":
+>        console.log("This is an apple."); // 출력 :"This is an apple."
+>        break;
+>    case "orange":
+>        console.log("This is an orange.");
+>        break;
+>    default:
+>        console.log("Unknown fruit.");
+>}
+> ```
+
+#### 3.4.5. 추가적인 조건문 사용
+
++ 중첩 조건문: 
+조건문 안에 또 다른 조건문을 작성하여 복잡한 조건을 처리할 수 있다.
+
++ 중첩 조건문 예제
+> ```javascript
+> let age = 20;
+>  let isStudent = true;
+>
+> if (age >= 18) {
+>     if (isStudent) {
+>         console.log("You are an adult student."); // 출력 :"You are an adult  student."
+>     } else {
+>         console.log("You are an adult.");
+>     }
+> } else {
+>     console.log("You are a minor.");
+> }
+> ```
+
++ 삼항 연산자 : 
+간단한 조건문은 삼항 연산자(condition ? expr1 : expr2)로 대체할 수 있다.
+
++ 삼항 연산자 예제
+> ```javascript
+> let age = 20;
+> let message = (age >= 18) ? "You are an adult." : "You are a minor.";
+> console.log(message); // "You are an adult."
+> ```
+
+---
+### 3.5. 반복문(Loops)
+> 자바스크립트의 반복문은 특정 조건이 만족될 때까지 반복해서 코드 블록을 실행할 수 있게 한다.
+
+#### 3.5.1. for 문 (for Statement)
+for 문은 반복 횟수가 명확할 때 사용한다.
+
+> ```javascript
+> for (initialization; condition; increment) {
+>    // 반복 실행할 코드
+>}
+> ```
++ for 문 예제
+> ```javascript
+> for (let i = 0; i < 5; i++) {
+>    console.log(i); // 0, 1, 2, 3, 4
+>}
+> ```
+
+#### 3.5.2. while 문 (while Statement)
+while 문은 조건이 참(true)인 동안 반복해서 코드 블록을 실행한다.
+
+> ```javascript
+> while (condition) {
+>    // 조건이 참일 때 반복 실행할 코드
+>}
+> ```
++ while 문 예제
+> ```javascript
+> let i = 0;
+>
+>while (i < 5) {
+>    console.log(i); // 0, 1, 2, 3, 4
+>    i++;
+>}
+> ```
+
+#### 3.5.3. do...while 문 (do...while Statement)
+do...while 문은 코드 블록을 먼저 실행한 후, 조건이 참인지 확인하여 반복 여부를 결정한다. 따라서 최소 한 번은 실행된다.
+
+> ```javascript
+> do {
+>    // 최소 한 번 실행할 코드
+>} while (condition);
+> ```
++ do...while 문 예제
+> ```javascript
+> let i = 0;
+>
+>do {
+>    console.log(i); // 0, 1, 2, 3, 4
+>    i++;
+>} while (i < 5);
+> ```
+
+#### 3.5.4. for...in 문 (for...in Statement)
+for...in 문은 객체의 속성을 반복할 때 사용한다. 객체의 모든 열거 가능한 속성을 순회한다.
+
+> ```javascript
+> for (variable in object) {
+>    // 객체의 각 속성에 대해 반복 실행할 코드
+>}
+> ```
++ for...in 문 예제
+> ```javascript
+> const person = { name: "John", age: 30, city: "New York" };
+>
+>for (let key in person) {
+>    console.log(key + ": " + person[key]);
+>    // name: John
+>    // age: 30
+>    // city: New York
+>}
+> ```
+
+#### 3.5.5. for...of 문 (for...of Statement)
+for...of 문은 배열 또는 이터러블 객체(예: 문자열, 배열, Map, Set)의 요소를 반복할 때 사용한다.
+
+> ```javascript
+> for (variable of iterable) {
+>    // 각 반복에 대해 실행할 코드
+>}
+> ```
++ for...of 문 예제
+> ```javascript
+> const array = [1, 2, 3, 4, 5];
+>
+>for (let value of array) {
+>    console.log(value); // 1, 2, 3, 4, 5
+>}
+> ```
+
+#### 3.5.6. 반복문의 제어
++ break : 반복문을 완전히 종료한다.
+
++ continue : 현재 반복을 종료하고, 다음 반복을 계속한다.
+
+---
+### 3.6. 함수(Functions)
+> 자바스크립트의 함수는 특정 작업을 수행하는 코드 블록이다. 
+함수는 코드를 재사용하고 구조화하는 데 중요한 역할을 한다. 
+함수는 정의, 호출, 매개변수 전달, 반환값 처리 등 다양한 측면을 가지고 있다. 
+
+#### 3.6.1. 함수 정의
+
+1. 함수 선언 (Function Declaration)
+함수 선언을 사용하면 함수 선언 전에 호출할 수 있다. 이는 자바스크립트의 호이스팅 때문이다.
+
+  > ```javascript
+  > function 함수이름(매개변수1, 매개변수2) {
+  >    // 함수 본문
+  >    return 반환값;
+  >}
+  > ```
+  예제
+  > ```javascript
+  > function add(a, b) {
+  >    return a + b;
+  >}
+  >
+  >console.log(add(2, 3)); // 5
+  > ```
+
+2. 함수 표현식 (Function Expression)
+함수 표현식은 변수에 할당된 함수이다. 함수 표현식은 변수에 할당된 이후에만 호출할 수 있다.
+
+  > ```javascript
+  > const 함수이름 = function(매개변수1, 매개변수2) {
+  >    // 함수 본문
+  >    return 반환값;
+  >};
+  > ```
+  예제
+  > ```javascript
+  > const multiply = function(a, b) {
+  >    return a * b;
+  >};
+  >
+  >console.log(multiply(2, 3)); // 6
+  > ```
+
+3. 화살표 함수 (Arrow Function)
+화살표 함수는 더 간결한 문법을 제공한다. 일반적으로 익명 함수로 사용된다.
+> ```javascript
+>const 함수이름 = (매개변수1, 매개변수2) => {
+>    // 함수 본문
+>    return 반환값;
+>};
+> ```
+예제
+> ```javascript
+>const subtract = (a, b) => {
+>    return a - b;
+>};
+>
+>console.log(subtract(5, 3)); // 2
+> ```
+
+#### 3.6.2. 매개변수와 인수
+매개변수 (Parameters)
+함수 정의 시 사용되는 변수로, 함수 내부에서 값을 받아 처리할 수 있다.
+
+인수 (Arguments)
+함수 호출 시 전달되는 값이다.
+
+#### 3.6.3. 기본 매개변수 (Default Parameters)
+매개변수에 기본값을 설정하여 함수 호출 시 인수가 전달되지 않았을 때 사용할 값을 지정할 수 있다.
+
+> ```javascript
+> function greet(name = "Guest") { // Guest를 기본값으로 지정
+>    console.log("Hello, " + name + "!");
+>}
+>
+>greet(); // "Hello, Guest!"
+>greet("Alice"); // "Hello, Alice!"
+> ```
+
+#### 3.6.4. 반환값 (Return Value)
+함수는 return 문을 사용하여 값을 반환할 수 있다. return 문이 없으면 undefined를 반환한다.
+
+#### 3.6.5. 함수의 다양한 형태
+1. 익명 함수 (Anonymous Function)
+이름이 없는 함수로, 주로 함수 표현식이나 콜백으로 사용된다.
+> ```javascript
+> const anon = function() {
+>    console.log("This is an anonymous function.");
+>  };
+>
+>  anon(); // "This is an anonymous function."
+> ```
+
+2. 즉시 실행 함수 (Immediately Invoked Function Expression, IIFE)
+정의되자마자 즉시 실행되는 함수이다.
+> ```javascript
+>(function() {
+>    console.log("IIFE runs immediately.");
+>  })(); // "IIFE runs immediately."
+> ```
+
+#### 3.6.6. 콜백 함수 (Callback Function)
+다른 함수의 인수로 전달되어 실행되는 함수이다. 비동기 작업(예: 이벤트 처리, 타이머, AJAX 요청)에서 자주 사용된다.
+
+> ```javascript
+>function fetchData(callback) {
+>    // 데이터 가져오는 작업
+>    let data = "some data";
+>    callback(data);
+>}
+>
+>fetchData(function(data) {
+>    console.log("Received data: " + data);
+>}); // "Received data: some data"
+> ```
+
+#### 3.6.7. 고차 함수 (Higher-Order Function)
+다른 함수를 인수로 받거나 반환하는 함수이다.
+
+> ```javascript
+>function createMultiplier(factor) {
+>    return function(x) {
+>        return x * factor;
+>    };
+>}
+>
+>const doubler = createMultiplier(2);
+>console.log(doubler(5)); // 10
+> ```
+
+#### 3.6.8. 재귀 함수 (Recursive Function)
+함수 내부에서 자기 자신을 호출하는 함수이다. 주로 반복적인 작업이나 트리 구조를 순회할 때 사용된다.
+
+> ```javascript
+>function factorial(n) {
+>    if (n <= 1) {
+>        return 1;
+>    }
+>    return n * factorial(n - 1);
+>}
+>
+>console.log(factorial(5)); // 120
+> ```
+
+> + 풀이법 :  
+factorial(5) : 5 > 1이므로, return 5 * factorial(4) 호출
+factorial(4) : 4 > 1이므로, return 4 * factorial(3) 호출
+factorial(3) : 3 > 1이므로, return 3 * factorial(2) 호출
+factorial(2) : 2 > 1이므로, return 2 * factorial(1) 호출
+factorial(1) : 1 <= 1이므로, return 1
+> + 리턴값 계산 : 
+> factorial(2)는 2 X 1 = 2를 반환
+factorial(3)는 3 X 2 = 6를 반환
+factorial(4)는 4 X 6 = 24를 반환
+factorial(5)는 5 X 24 = 120를 반환
+
+---
+### 3.7. 스코프(Scope)
+> 자바스크립트에서 스코프(scope)는 변수, 함수, 객체 등이 유효한 범위를 의미한다. 즉, 특정 변수나 함수가 어디서 접근 가능한지를 결정한다. 
+
+#### 3.7.1 전역 스코프 (Global Scope)
+전역 스코프는 코드의 어느 곳에서든 접근 가능한 범위이다. 전역 스코프에 선언된 변수는 전역 객체의 속성이 된다. 웹 브라우저 환경에서는 window 객체가 전역 객체이다.
+
+#### 3.7.2 함수 스코프 (Function Scope)
+함수 스코프는 함수 내에서 선언된 변수들이 함수 내부에서만 유효한 범위를 의미한다. 함수 밖에서는 해당 변수를 접근할 수 없다. var 키워드를 사용하여 선언된 변수는 함수 스코프를 가진다.
+
+#### 3.7.3 블록 스코프 (Block Scope)
+블록 스코프는 {} 블록 내부에서만 유효한 범위이다. let과 const 키워드를 사용하여 선언된 변수는 블록 스코프를 가진다. 이 블록은 함수, 조건문, 반복문 등에서 사용된다.
+
+#### 3.7.4 변수 선언 타입별 비교
++ 스코프의 차이: var, let, const
++ var: 함수 스코프를 가지며, 블록 내에서 선언되더라도 함수 내 어디에서나 접근 가능하다.
++ let: 블록 스코프를 가지며, 선언된 블록 내에서만 유효하다.
++ const: 블록 스코프를 가지며, 선언된 블록 내에서만 유효하다. const로 선언된 변수는 재할당할 수 없다.
+
+> 스코프를 잘 이해하면 변수의 유효 범위를 적절히 관리하고, 코드의 가독성과 유지보수성을 높일 수 있다.
+
+---
+### 3.8. DOM(Document Object Model)
+> 자바스크립트에서 DOM(Document Object Model)은 HTML 문서를 구조화하고 조작하기 위한 API(Application Programming Interface)이다. DOM은 HTML 문서를 트리 구조로 표현하며, 각 요소를 객체로 취급한다. 자바스크립트를 통해 DOM을 조작하면 웹 페이지의 내용을 동적으로 변경할 수 있다.
+>
+> ❗ DOM 은 같은 페이지로 표시하기에 내용이 방대하므로 추후에 링크를 첨부하겠다.
+
+---
+
+# 마치며
+
+> 자바스크립트를 처음 접하면서 공부한 내용을 정리해보았다.
+추후에 각내용 및 추가되는 내용을 추가해보겠다.
+
+<a href="#목차"> 목차로</a>
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+<p id="part4"><p>
+서현
 자바스크립트는 브라우저에서 직접 실행되는 유일한 프로그래밍 언어.
 클라이언트 측 스크립트로서 웹 페이지에 동적인 기능을 추가
 
@@ -580,8 +1071,12 @@ css는 웹 페이지의 스타일, 레이아웃 및 디자인을 정의하는데
 -비동기 처리 (콜백, 프로미스, async/await)
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ서현
 
+<a href="#목차"> 목차로</a>
 
 ---
+
+<p id="part5"><p>
+    
 황정한
 
 자바스크립트란?
@@ -849,3 +1344,5 @@ AJAX: XMLHttpRequest, fetch API
 Map, Set: ES6의 새로운 컬렉션 타입
 Proxy와 Reflect: 객체의 동작을 가로채고 제어
 정규 표현식: 정규 표현식을 사용한 문자열 검색과 대체
+
+<a href="#목차"> 목차로</a>
