@@ -1,7 +1,7 @@
 /* 
  comment - html, body에 css는 추가를 하지 않습니다.
            html, body에 스타일을 넣는경우 백 그라운드 이미지 or 색상을 넣는 경우를
-           제외한 어떠한 경우에도 사용을 하지 않습니다.
+           제외 사용을 하지 않습니다.
 html {
   display: flex;
   flex-direction: column;
