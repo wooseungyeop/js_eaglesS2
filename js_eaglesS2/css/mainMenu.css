@@ -37,7 +37,7 @@ footer {
 
 .Footer-Container {
   height: 100%;
-  border: 1px solid #000;
+  border: 1px solid #888;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -46,7 +46,7 @@ footer {
   height: 20%;
   display: flex;
   justify-content: space-around;
-  border: 1px solid #000;
+  border: 1px solid #888;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -75,7 +75,7 @@ footer {
   height: 60%;
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
+  border: 1px solid #888;
   overflow: scroll;
 }
 
@@ -114,9 +114,25 @@ footer {
   align-items: center; 
   justify-content: space-around;
 }
-.col-quantity button {
+
+.quantity-PlusMino {
   width: 30px;
   height: 30px;
+  background-color: red;
+  border-radius: 5px;
+  color: #fff;
+  align-content: center;
+  cursor: pointer;
+}
+
+.price-Del {
+  width: 30px;
+  height: 30px;
+  background-color: #888;
+  border-radius: 5px;
+  color: #fff;
+  align-content: center;
+  cursor: pointer;
 }
 
 .Footer_Under {
@@ -134,8 +150,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 50px;
   margin: 5px;
+  background-color: #888;
 }
 
 .PlusButton a {
