@@ -23,12 +23,13 @@ body {
 
 .All_Box {
   width: 800px;
-  height: 100%;
+  height: 100vh;
   margin: 0 auto;
+  border: 1px solid #000;
 }
 
 footer {
-  height: 20%;
+  height: 25%;
   width: 800px;
   position: fixed;
   bottom: 0;
@@ -51,9 +52,10 @@ footer {
 }
 
 .Footer_Top_left {
-  width: 70%;
   display: flex;
   align-items: center;
+  flex: 3.5;
+  margin-left: 10px;
 }
 
 .Footer_Top_left div {
@@ -62,32 +64,59 @@ footer {
 }
 
 .Footer_Top_Right {
-  width: 30%;
-  height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex: 2;
 
 }
 
 .Footer_Info_Box {
   height: 60%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   border: 1px solid #000;
-  align-items: center;
+  overflow: scroll;
 }
 
-.Footer_Info_left {
-  flex: 3.5;
+.Footer_Info_Box table {
+  width: 100%;
+  table-layout: fixed;
 }
-
-.Footer_Info_middle {
-  flex: 1;
+.Footer_Info_Box th, .Footer_Info_Box td {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
-
-.Footer_Info_Right {
-  flex: 1;
+.Footer_Info_Box th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.col-menu {
+  width: 60%;
+}
+.col-quantity {
+  width: 20%;
+  text-align: center;
+}
+.quantity-con{
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+}
+.col-price {
+  width: 20%;
+  text-align: center;
+}
+.price-con{
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+}
+.col-quantity button {
+  width: 30px;
+  height: 30px;
 }
 
 .Footer_Under {
@@ -175,4 +204,11 @@ footer {
   width: 100%;
   height: 100%;
   color: #fff;
+}
+
+.menu-name {
+  margin-left: 10px;
+}
+.menu-option {
+  margin-left: 20px;
 }
