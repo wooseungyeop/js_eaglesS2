@@ -1,0 +1,25 @@
+.All_Box{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main_box {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    outline: dashed 1px black;
+    /* 설정 */
+    position: relative;
+  }
+  
+  .mainchild_box {
+    width: 50px;
+    height: 50px;
+    /* 상하좌우 정중앙 정렬하기 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px; /* 자식 요소 전체를 중앙 정렬하기 위해, 상단 및 왼쪽 margin을 마이너스 값으로 적용하기 */
+  }
