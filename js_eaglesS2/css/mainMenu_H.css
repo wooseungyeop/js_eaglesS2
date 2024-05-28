@@ -1,0 +1,61 @@
+.Hd {
+ 
+}
+.Hd_Top {
+    display: flex;
+    justify-content: space-between;
+}
+.Hd_Top_Front {
+    display: flex;
+    margin-left: 20px;
+    padding: 5px;
+}
+.Hd_Top_Front > div {
+    padding: 5px;
+    margin-right: 10px;
+}
+.Front_Eat {
+    background-color: #000;
+    border-radius: 30px;
+    width: 80px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.Front_Packaging {
+    border: 1px solid #000;
+    border-radius: 30px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.Hd_Top_Back {
+    display: flex;
+    margin-right: 20px;
+    padding: 5px;
+}
+.Hd_Top_Back > div {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 5px;
+    margin-right: 10px;
+    color: #999;
+    cursor: pointer;
+}
+.Hd_Nav {
+    display: flex;
+    margin: 5px;
+}
+.Hd_Nav > div {
+    display: flex;
+    width: 20%;
+    height: 40px;
+    border: 1px solid #999;
+    background-color: #888;
+    color: #FFF;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    cursor: pointer;
+}

@@ -7,15 +7,36 @@
   <title>マークもナルド キオスク</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/font.css">
-  <link rel="stylesheet" href="./css/mainMenu.css">
+  <link rel="stylesheet" href="./css/mainMenu_H.css">
+  <link rel="stylesheet" href="./css/mainMenu_F.css">
   <link rel="icon" href="./img/ealges.png" type="image/x-icon">
+  <script src="/js_eaglesS2/js/mainMenu.js"></script>
 </head>
-
 <body>
   <!-- 순태님 -->
   <section class="All_Box">
     <header>
-
+        <div class="Hd">
+            <div class="Hd_Top">
+                <div class="Hd_Top_Front">
+                    <div class="Front_Eat" onclick='Eat()'>매장식사</div>
+                    <div class="Front_Packaging" onclick='Packaging()'>포장주문</div>
+                </div>
+                <div class="Hd_Top_Back">
+                    <div onclick='Home()'>첫 화면</div>
+                    <div onclick='Guide()'>사용안내</div>
+                    <div onclick='FoodInfo()'>영양정보</div>
+                    <div onclick='Lang()'>Language</div>
+                </div>
+            </div>
+            <div class="Hd_Nav">
+                <div onclick='Suggest()'>추천메뉴</div>
+                <div onclick='SetMenu()'>세트메뉴</div>
+                <div onclick='Buger()'>단품</div>
+                <div onclick='Side()'>사이드</div>
+                <div onclick='Beverage()'>음료</div>
+            </div>
+        </div>
     </header>
     <article>
 
@@ -25,7 +46,7 @@
         <div class="Footer_Top">
           <div class="Footer_Top_left">
             <div>주문수량</div>
-            <div>3</div>
+            <div>4</div>
           </div>
           <div class="Footer_Top_Right">
             <div>주 문 금 액</div>
@@ -51,15 +72,15 @@
                         </td>
                         <td class="col-quantity">
                             <div class="quantity-con">
-                                <button> - </button>
+                                <div class="quantity-PlusMino" onclick='Mino()'> - </div>
                                 <div>수량</div>
-                                <button> + </button>
+                                <div class="quantity-PlusMino" onclick='Plus()'> + </div>
                             </div>
                         </td>
                         <td class="col-price">
                             <div class="price-con">
                                 <div>메뉴가격</div>
-                                <button> X </button>
+                                <div class="price-Del" onclick='Del()'> x </div>
                             </div>
                         </td>
                     </tr>
@@ -72,15 +93,15 @@
                         </td>
                         <td class="col-quantity">
                             <div class="quantity-con">
-                                <button> - </button>
+                                <div class="quantity-PlusMino" onclick='Mino()'> - </div>
                                 <div>수량</div>
-                                <button> + </button>
+                                <div class="quantity-PlusMino" onclick='Plus()'> + </div>
                             </div>
                         </td>
                         <td class="col-price">
                             <div class="price-con">
                                 <div>메뉴가격</div>
-                                <button> X </button>
+                                <div class="price-Del" onclick='Del()'> x </div>
                             </div>
                         </td>
                     </tr>
@@ -93,15 +114,36 @@
                         </td>
                         <td class="col-quantity">
                             <div class="quantity-con">
-                                <button> - </button>
+                                <div class="quantity-PlusMino" onclick='Mino()'> - </div>
                                 <div>수량</div>
-                                <button> + </button>
+                                <div class="quantity-PlusMino" onclick='Plus()'> + </div>
                             </div>
                         </td>
                         <td class="col-price">
                             <div class="price-con">
                                 <div>메뉴가격</div>
-                                <button> X </button>
+                                <div class="price-Del" onclick='Del()'> x </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="col-menu">
+                            <div class="menu-name">메뉴명</div>
+                            <div class="menu-option">- 메뉴옵션</div>
+                        </td>
+                        <td class="col-quantity">
+                            <div class="quantity-con">
+                                <div class="quantity-PlusMino" onclick='Mino()'> - </div>
+                                <div>수량</div>
+                                <div class="quantity-PlusMino" onclick='Plus()'> + </div>
+                            </div>
+                        </td>
+                        <td class="col-price">
+                            <div class="price-con">
+                                <div>메뉴가격</div>
+                                <div class="price-Del" onclick='Del()'> x </div>
                             </div>
                         </td>
                     </tr>
