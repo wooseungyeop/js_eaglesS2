@@ -95,10 +95,10 @@ Js_Eagles와 함께라면 미래는 더욱 밝고, 무한한 가능성이 열립
 </details>
 
 <details>
-<summary> 팀원2 </summary>
+<summary> 주순태 </summary>
 <div markdown="1">
 
-+ 내용을  적으시오
++ 24.05.28 : Footer 레이아웃 완성
 
 </div>
 </details>
