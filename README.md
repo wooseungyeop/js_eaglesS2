@@ -75,23 +75,57 @@ Js_Eagles와 함께라면 미래는 더욱 밝고, 무한한 가능성이 열립
 
 <div>
   <p>
-    1. 메뉴1: </br></br>
-    2. 메뉴2: </br></br>
-    3. 메뉴3: </br></br>
-    4. 메뉴4: </br></br>
+    1. 키오크크 시작 화면: </br></br>
+    2. 키오스크 메인메뉴 화면: </br></br>
+    3. 키오스크 주문 상세 페이지: </br></br>
+    4. 키오스크 결제 페이지: </br></br>
   </p>
 </div>
 <br><br>
 
 <div align="left">
     <H3> 6. 진행 상황 </H3>
-</div>
+<details>
+<summary> 팀원1 </summary>
+<div markdown="1">
 
-<div>
-    <p>
-        <ul>
-            <li> 24.05.23 : 프로젝트 리포지토리 개설</li>
-            <li> 24.07.00 : 완료</li>
-        </ul>
-    </p>
++ 내용을  적으시오
+
 </div>
+</details>
+
+<details>
+<summary> 팀원2 </summary>
+<div markdown="1">
+
++ 내용을  적으시오
+
+</div>
+</details>
+
+<details>
+<summary> 팀원3 </summary>
+<div markdown="1">
+
++ 내용을  적으시오
+
+</div>
+</details>
+
+<details>
+<summary> 팀원4 </summary>
+<div markdown="1">
+
++ 내용을  적으시오
+
+</div>
+</details>
+
+<details>
+<summary> 팀원5 </summary>
+<div markdown="1">
+
++ 내용을  적으시오
+
+</div>
+</details>
