@@ -20,6 +20,9 @@ body {
 
 }
 */
+body {
+  position: relative;
+}
 
 .All_Box {
   width: 800px;
@@ -83,37 +86,46 @@ footer {
   width: 100%;
   table-layout: fixed;
 }
-.Footer_Info_Box th, .Footer_Info_Box td {
+
+.Footer_Info_Box th,
+.Footer_Info_Box td {
   border: 1px solid #ddd;
   padding: 8px;
 }
+
 .Footer_Info_Box th {
   background-color: #f2f2f2;
   position: sticky;
   top: 0;
   z-index: 1;
 }
+
 .col-menu {
   width: 60%;
 }
+
 .col-quantity {
   width: 20%;
   text-align: center;
 }
-.quantity-con{
-  display: flex; 
-  align-items: center; 
+
+.quantity-con {
+  display: flex;
+  align-items: center;
   justify-content: space-around;
 }
+
 .col-price {
   width: 20%;
   text-align: center;
 }
-.price-con{
-  display: flex; 
-  align-items: center; 
+
+.price-con {
+  display: flex;
+  align-items: center;
   justify-content: space-around;
 }
+
 .col-quantity button {
   width: 30px;
   height: 30px;
@@ -209,6 +221,7 @@ footer {
 .menu-name {
   margin-left: 10px;
 }
+
 .menu-option {
   margin-left: 20px;
 }
