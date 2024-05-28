@@ -15,101 +15,117 @@
 
 <body>
 
-  <div class="All_Box" style= " border: 1px solid black;"> <!-- 필수 -->
+  <div class="All_Box" style=" border: 1px solid black;"> <!-- 필수 -->
     <header style="margin-top: 100px;">
 
     </header>
 
     <section>
-  <!-- 해더가 없어도 일단 띄울려면 해드에 스타일 넣고 작업해야해요 나중에 스타일만 빼면 되니깐요 -->
-      
-    <div style="display: flex; justify-content: center; align-items: center; ">
-      <p style="font-size: 80px; font-weight: 400; text-align: center;">결제 수단을 <br>선택해 주세요</p>
-    </div>
-    
-    <div style="display: flex; justify-content: center; align-items: center; margin-top: 50px;">
-      <p style="font-size: 40px; font-weight: 400; text-align: center;">현금 결제는 카운터에서 가능합니다.</p>
-    </div>
+      <!-- 해더가 없어도 일단 띄울려면 해드에 스타일 넣고 작업해야해요 나중에 스타일만 빼면 되니깐요 -->
+
+      <div>
+        <!-- 
+          div 안에 스타일 속성이 필요없어요  
+          style="display: flex; justify-content: center; align-items: center; "
+        -->
+        <p style="font-size: 80px; font-weight: 400; text-align: center;">결제 수단을 <br>선택해 주세요</p>
+      </div>
+
+      <div style=" margin-top: 50px;">
+        <!-- 
+          display: flex; justify-content: center; align-items: center;
+          필요없어요
+         -->
+        <p style="font-size: 40px; font-weight: 400; text-align: center;">현금 결제는 카운터에서 가능합니다.</p>
+      </div>
 
 
 
 
 
 
-    
-    <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 100px;">
-    
-      <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px 10px 10px 10px;">
-        <div style="display: flex;width: 100%;height: 100%;align-items: center;justify-content: center; width: 100%; height: 100%;">
-          <div style=" height: auto; max-width: 30%;">
-            <img src="0001.PNG" width="70%">
+
+      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 100px;">
+
+        <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px 10px 10px 10px;">
+          <!-- 
+            border-radius: 10px 10px 10px 10px; 을 더 간단하게
+            border-radius: 10px; 로 표현도 가능해요
+           -->
+          <div
+            style="display: flex; width: 100%; height: 100%;align-items: center;justify-content: center; width: 100%; height: 100%;">
+            <div style=" height: auto; max-width: 30%;">
+              <img src="0001.PNG" width="70%">
+            </div>
+            <div>
+              <p style="color: white; font-size: 30px;">신용/체크카드</p>
+            </div>
           </div>
-          <div>
-            <p style="color: white; font-size: 30px;">신용/체크카드</p>
-          </div>          
+        </div>
+
+
+
+        <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px 10px 10px 10px;">
+          <img src="0002.PNG" width="20%" style="height: auto; border-radius: 10px ; margin: 70px 0 0 60px;">
+          <!-- 
+              border-radius 동일하게 border-radius : 10px 로 표현가능
+             -->
         </div>
       </div>
 
 
 
-      <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px 10px 10px 10px;">
-        <img src="0002.PNG" width="20%" style="height: auto; border-radius: 10px 10px 10px 10px; margin: 70px 0 0 60px;">
-      </div>
-    </div>
 
 
 
 
-
-
-
-    <div style="display: flex; margin: 40px 0 0 30px;">
-      <p style="font-size: 35px; font-weight: 400; text-align: center;">간편결제</p>
-    </div>
-
-
-
-
-
-    <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
-      </div>
-
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
+      <div style="display: flex; margin: 40px 0 0 30px;">
+        <p style="font-size: 35px; font-weight: 400; text-align: center;">간편결제</p>
       </div>
 
 
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
-    </div>
-    </div>
 
 
 
+      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
 
-    <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
+
+
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
       </div>
 
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
+
+
+
+      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
+
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
+
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
       </div>
 
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
-    </div>
-    </div>
 
 
+      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
 
-    <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
+
+        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        </div>
       </div>
 
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
-      </div>
-
-      <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px 20px 20px 20px;">
-    </div>
-    </div>
-    
 
     </section>
 
@@ -119,9 +135,22 @@
 
 
 
-      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 70px; margin-bottom: 70px;">
-        <div style="width: 200px; height: 50px; border: 2px solid black; background-color: white; border-radius: 50px 50px 50px 50px;">
-          <p style="font-size: 20px; font-weight: 50; text-align: center; margin-top: 10px;">이전</p>
+      <!-- 
+        ㄱㅏ운대 정렬 할려면 justify-content: space-evenly; 이 아니라
+        justify-content: center;
+      -->
+      <div style="display: flex; justify-content: center; width: 100%; margin-top: 70px; margin-bottom: 70px;">
+
+        <!--
+          이미 배경이 흰색인데 백그라운드 화이트는 불필요 
+          div 안 자식 p 태그 글자 가운대 정렬을 할려면 
+          display: flex; justify-content: center; align-items: center;
+          사용을 해도 괜찮아요
+        -->
+        <div
+          style="width: 200px; height: 60px; border: 2px solid black;  border-radius: 50px ; display: flex; justify-content: center; align-items: center;">
+
+          <p style="font-size: 20px; font-weight: 50; text-align: center; ">이전</p>
         </div>
       </div>
 
@@ -131,7 +160,7 @@
 
 
 
-  
+
 
 </body>
 
