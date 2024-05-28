@@ -7,17 +7,36 @@
   <title>マークもナルド キオスク</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/font.css">
-  <link rel="stylesheet" href="./css/mainMenu.css">
+  <link rel="stylesheet" href="./css/mainMenu_H.css">
+  <link rel="stylesheet" href="./css/mainMenu_F.css">
   <link rel="icon" href="./img/ealges.png" type="image/x-icon">
   <script src="/js_eaglesS2/js/mainMenu.js"></script>
-
 </head>
-
 <body>
   <!-- 순태님 -->
   <section class="All_Box">
     <header>
-
+        <div class="Hd">
+            <div class="Hd_Top">
+                <div class="Hd_Top_Front">
+                    <div class="Front_Eat" onclick='Eat()'>매장식사</div>
+                    <div class="Front_Packaging" onclick='Packaging()'>포장주문</div>
+                </div>
+                <div class="Hd_Top_Back">
+                    <div onclick='Home()'>첫 화면</div>
+                    <div onclick='Guide()'>사용안내</div>
+                    <div onclick='FoodInfo()'>영양정보</div>
+                    <div onclick='Lang()'>Language</div>
+                </div>
+            </div>
+            <div class="Hd_Nav">
+                <div onclick='Suggest()'>추천메뉴</div>
+                <div onclick='SetMenu()'>세트메뉴</div>
+                <div onclick='Buger()'>단품</div>
+                <div onclick='Side()'>사이드</div>
+                <div onclick='Beverage()'>음료</div>
+            </div>
+        </div>
     </header>
     <article>
 
