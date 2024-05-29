@@ -1,0 +1,77 @@
+article {
+    height: 70%;
+}
+.Sc_Section {
+    padding: 10px;
+    height: 98%;
+}
+.Sc_Section_con {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.Section_Left {
+    display: flex;
+    width : 5%;
+    height : 40px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    background-color: #999;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Section_Right {
+    display: flex;
+    width : 5%;
+    height : 40px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Section_Menu {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    justify-content: center;
+}
+.Section_Menu_con {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+.Menu_con_row {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.con_row_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.con_row_card > img {
+    height: 100%;
+    width: 95%;
+}
+
+.con_row_card > p {
+    height: 15%;
+    text-align: center;
+}
