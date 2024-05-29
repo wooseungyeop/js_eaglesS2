@@ -1,14 +1,15 @@
-.Hd {
- 
+header {
+    height: (10% - 10px)
 }
 .Hd_Top {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 .Hd_Top_Front {
     display: flex;
     margin-left: 20px;
-    padding: 5px;
+    padding: 10px;
 }
 .Hd_Top_Front > div {
     padding: 5px;
@@ -35,8 +36,7 @@
     padding: 5px;
 }
 .Hd_Top_Back > div {
-    border-left: 1px solid #999;
-    border-right: 1px solid #999;
+    border-right: 1px solid #333;
     padding: 5px;
     margin-right: 10px;
     color: #999;
