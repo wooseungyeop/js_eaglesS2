@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/font.css">
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/payment.css">
   <link rel="icon" href="./img/ealges.png" type="image/x-icon">
 </head>
 
@@ -39,17 +40,20 @@
         <p style="font-size: 40px; font-weight: 400; text-align: center;">현금 결제는 카운터에서 가능합니다.</p>
       </div>
 
+
+
+
+
       <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 100px;">
 
-        <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px 10px 10px 10px;">
+        <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px;">
           <!-- 
             border-radius: 10px 10px 10px 10px; 을 더 간단하게
             border-radius: 10px; 로 표현도 가능해요
            -->
-          <div
-            style="display: flex; width: 100%; height: 100%;align-items: center;justify-content: center; width: 100%; height: 100%;">
+          <div style="display: flex; width: 100%; height: 100%;align-items: center;justify-content: center; width: 100%; height: 100%;">
             <div style=" height: auto; max-width: 30%;">
-              <img src="0001.PNG" width="70%">
+              <img src="./img/card.png" width="70%">
             </div>
             <div>
               <p style="color: white; font-size: 30px;">신용/체크카드</p>
@@ -57,55 +61,89 @@
           </div>
         </div>
 
-        <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px 10px 10px 10px;">
-          <img src="0002.PNG" width="20%" style="height: auto; border-radius: 10px ; margin: 70px 0 0 60px;">
-          <!-- 
-            border-radius 동일하게 border-radius : 10px 로 표현가능
-            
-            img 경로 맞춰주세요 img 폴더 있어요 막 넣으면 파일 관리 하기 힘들어요
-          -->
+
+        <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px;">
+          <div style="display: flex; width: 100%; height: 100%;align-items: center;justify-content: center; width: 100%; height: 100%;">
+            <div style=" height: auto; max-width: 30%;">
+              <img src="./img/kfc.png" width="60%" style="height: auto; border-radius: 10px ;">
+            </div>
+            <div>
+              <p style="color: white; font-size: 30px;">KFC선불카드</p>
+            </div>
+          </div>
         </div>
       </div>
+
+
+
+
+
 
       <div style="display: flex; margin: 40px 0 0 30px;">
         <p style="font-size: 35px; font-weight: 400; text-align: center;">간편결제</p>
       </div>
 
-      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
 
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+
+
+      <div class="EasyPayment_box">
+
+        <div class="EasyPayment_box_card">
+          <img src ="./img/applepay.svg">
+          <p>Apple Pay</p>
         </div>
 
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+
+        <div class="EasyPayment_box_card">
+          <img src ="./img/kakaopay.svg">
+          <p>KAKAO PAY</p>
         </div>
 
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
-        </div>
-
-      </div>
-
-      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
-
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
-        </div>
-
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
-        </div>
-
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        <div class="EasyPayment_box_card">
+          <img src ="./img/payco.svg">
+          <p>PAYKO</p>
         </div>
 
       </div>
 
-      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 50px;">
 
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+
+
+
+      <div class="EasyPayment_box1">
+
+        <div class="EasyPayment_box_card1">
+          <img src ="./img/zeropay.svg">
+          <p>제로페이</p>
         </div>
 
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        <div class="EasyPayment_box_card1">
+          <img src ="./img/googlepay.svg">
+          <p>google pay</p>
         </div>
 
-        <div style="width: 200px; height: 130px; background-color: rgb(221, 218, 218); border-radius: 20px ;">
+        <div class="EasyPayment_box_card1">
+          <img src ="./img/naverpay.svg">
+          <p>naver pay</p>
+        </div>
+
+      </div>
+
+
+
+      <div class="EasyPayment_box2">
+
+        <div class="EasyPayment_box_card2">
+          <img src ="./img/lpay.svg">
+          <p>엘 페이</p>
+        </div>
+
+        <div class="EasyPayment_box_card2">
+          <img src ="./img/toss.svg">
+          <p>toss</p>
+        </div>
+
+        <div class="EasyPayment_box_card2">
         </div>
 
       </div>

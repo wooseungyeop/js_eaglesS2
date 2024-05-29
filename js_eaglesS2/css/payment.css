@@ -1,0 +1,85 @@
+.EasyPayment_box{
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    margin-top: 50px;
+} 
+
+.EasyPayment_box_card {
+    width: 200px; 
+    height: 130px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px ;
+}
+.EasyPayment_box_card > img {
+    width: 50%;
+    height: auto;
+    min-height: 65px;
+}
+.EasyPayment_box_card > p {
+    margin-top: 10px;
+}
+
+.EasyPayment_box{
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    margin-top: 50px;
+} 
+
+.EasyPayment_box1{
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    margin-top: 50px;
+} 
+
+.EasyPayment_box_card1 {
+    width: 200px; 
+    height: 130px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px ;
+}
+
+.EasyPayment_box_card1 > img {
+    width: 50%;
+    height: auto;
+    min-height: 65px;
+}
+.EasyPayment_box_card1 > p {
+    margin-top: 10px;
+}
+
+.EasyPayment_box2{
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    margin-top: 50px;
+} 
+
+.EasyPayment_box_card2 {
+    width: 200px; 
+    height: 130px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px ;
+}
+.EasyPayment_box_card2 > img {
+    width: 50%;
+    height: auto;
+    min-height: 65px;
+}
+.EasyPayment_box_card2 > p {
+    margin-top: 10px;
+}
