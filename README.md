@@ -86,8 +86,10 @@ Js_Eagles와 함께라면 미래는 더욱 밝고, 무한한 가능성이 열립
 <div align="left">
     <H3> 6. 진행 상황 </H3>
 <details>
-<summary> 팀원1 </summary>
+<summary> 우승엽 </summary>
 <div markdown="1">
+
+2405.29 : 주문 리스트 뼈대 완성
 
 + 내용을  적으시오
 
