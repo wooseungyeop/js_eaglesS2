@@ -102,100 +102,113 @@
           -->
   <!-- 승엽님 -->
   <section style="width: 100%; background-color: rgba(0, 0, 0, 0.7); padding: 20px;  position: absolute; top: 0;">
-    <div style="width: 80%; background-color: white; padding: 20px;  margin: 0 auto; ">
-      <div>
+    <div style="width: 40%; background-color: white; padding: 20px;  margin: 0 auto; ">
+      
         <div>
           <!-- 3선 영역 -->
           <div>
-            <div></div>
+            <div>빨간색 삼선</div>
             <div></div>
           </div>
           <!-- 3선 영역 -->
 
           <!-- 3선 제작시 마진 추가 영역 -->
           <div style="width: 100%;">
-            <p style="font-size: 2em; font-weight: bolder; text-align: center; "> 나의 주문 리스트 </p>
+            <p style="font-size: 2em; font-weight: bolder;"> 나의 주문 리스트 </p>
           </div>
           <!-- 3선 제작시 마진 추가 영역 -->
-          <div style="width: 100%;">
+          <div style="width: 100%; margin-top: 20px;">
             <div>
-              <table class="list" style="width: 100%; background-color: #D3D3D3;">
-                <!-- 메뉴, 수량, 가격 -->
-                <thead class="meue-list" style=" height: 40px; background-color: black; color: white;  font-size:25px;">
-                  <tr>
-                    <td>메뉴</td>
-                    <td>수량</td>
-                    <td>가격</td>
-                  </tr>
-                </thead>
-                <!-- 햄버거, 수량 갯수, 가격 원 -->
-                <tbody style="font-size:25px">
-                  <tr>
-                    <td>준나게 맛있는 햄버거</td>
-                    <!-- 웹 상으로 글자 시작점이 안맞아 보여서     padding: 1px 22px 1px 1px; 좋을거같아요  -->
-                    <td>1</td>
-                    <!--  -->
-                    <td>1000</td>
-
-                  </tr>
-                  <br><br>
-                  <tr style="font-size:15px">
-                    <td>더 준나게 맛있는 닭다리살 치킨</td>
-                    <td>2</td>
-                    <td>20000</td>
-                  </tr>
-                  <tr style="font-size:15px">
-                    <td>더더더 주우우운나게 맛있는 프렌치프라이</td>
-                    <td>3</td>
-                    <td>3000</td>
-                  </tr>
-                </tbody>
-                <!-- 햄버거, 수량 갯수, 가격 원 -->
-              </table>
-              <!-- 합계, 할인, 총 결제 금액 -->
-              <table class="sum-list" style="width: 100%; background-color: #D3D3D3; margin-top: 10px;">
-                <div>
-                  <tr style="border-bottom: 1px solid #999;">
-                    <td>합계</td>
-                    <td>6</td>
-                    <td>24000</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid #999;">
-                    <td>할인</td>
-                    <td></td>
-                    <td>안해줘</td>
-
-                  </tr>
-
-                  <tr>
-                    <td>총 결제 금액</td>
-                    <td></td>
-                    <td>24000</td>
-                  </tr>
-
-                </div>
-              </table>
-              <!-- 합계, 할인, 총 결제 금액 -->
-              <div class="imgs-box" style="margin-top: 30px; padding-left: 20px; overflow: hidden;">
-                <p>함께 구매하기 좋은 상품</p>
-                <div style="border: 1px #999; width: 150px; height: 150px;  display: flex; flex-direction: row;">
-                  <img class="imgs-thumbnail" src="./img/햄버거.png" alt="test"
-                    style=" width: 100%; height: 100%; object-fit: cover; margin: 10px;">
-                  <img class="imgs-thumbnail" src="./img/치킨.png" alt="test"
-                    style=" width: 100%; height: 100%; object-fit: cover; margin: 5px;">
-                  <img class="imgs-thumbnail" src="./img/감자튀김.png" alt="test"
-                    style=" width: 100%; height: 100%; object-fit: cover; margin: 5px;">
-                </div>
+              <div style="height:370px; background-color: #D3D3D3;">
+                <table class="list" style="width: 100%; ;">
+                  <!-- 메뉴, 수량, 가격 -->
+                  <thead class="meue-list"
+                    style=" height: 40px; background-color: black; color: white;  font-size:25px;">
+                    <tr>
+                      <td>메뉴</td>
+                      <td>수량</td>
+                      <td>가격</td>
+                    </tr>
+                  </thead>
+                  <!-- 햄버거, 수량 갯수, 가격 원 -->
+                  <tbody style="font-size:25px; ">
+                    <!-- for문 돌리기 -->
+                    <th style="padding-top: 10px;">
+                      <tr class="메인메뉴">
+                        <td>준나게 맛있는 햄버거</td>
+                        <td>1</td>
+                        <td>1000</td>
+                      </tr>
+                      <tr style="font-size: 15px;" class="서브메뉴들">
+                        <td style="padding-top: 10px;">테스트</td>
+                        <td>테스트</td>
+                        <td>테스트</td>
+                      </tr>
+                    </th>
+                    <!--for문 돌리기  -->
+                  </tbody>
+                  <!-- 햄버거, 수량 갯수, 가격 원 -->
+                </table>
               </div>
 
+              <!-- 합계, 할인, 총 결제 금액 -->
+              <table class="sum-list" style="width: 100%; height: 110px; background-color: #D3D3D3; margin-top: 10px;">
 
+                <tr style="border-bottom: 1px solid #999;">
+                  <td>합계</td>
+                  <td>6</td>
+                  <td>24000</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #999;">
+                  <td>할인</td>
+                  <td></td>
+                  <td>안해줘</td>
 
+                </tr>
 
+                <tr>
+                  <td>총 결제 금액</td>
+                  <td></td>
+                  <td>24000</td>
+                </tr>
+              </table>
+              <!-- 합계, 할인, 총 결제 금액 -->
+              <div class="imgs-box" style="margin-top: 30px;  overflow: hidden;">
+                <p style="padding-left: 20px;">함께 구매하기 좋은 상품</p>
+                <!-- 추가메뉴 박스 -->
+                <!-- 좌우 버튼 -->
+                <div style=" display: flex; align-items: center; width: 100%;">
+                  <div style="border: 1px solid red; width: 40px; height: 40px; border-radius: 20px;">
+                    <img src="" alt="">
+                  </div>
+                  <!-- 좌우 버튼 -->
+                  <div
+                    style="border: 1px #999; margin-top: 20px; width: 88%; height: 150px;  display: flex; flex-direction: row; justify-content: space-around;">
+                    <div style="width: 150px; height: 150px; border: 1px solid black;">
+                      <!-- <img class="imgs-thumbnail" src="./img/햄버거.png" alt="test" style=" width: 100%; height: auto; "> -->
+                    </div>
+                    <div style="width: 150px; height: 150px; border: 1px solid black;">
+                      <!-- <img class="imgs-thumbnail" src="./img/치킨.png" alt="test" style=" width: 100%; height: auto;"> -->
+                    </div>
+                    <div style="width: 150px; height: 150px; border: 1px solid black;">
+                      <!-- <img class="imgs-thumbnail" src="./img/감자튀김.png" alt="test" style=" width: 100%; height: auto;"> -->
+                    </div>
+                  </div>
+                  <div style="border: 1px solid red; width: 40px; height: 40px; border-radius: 20px;">
+                    <img src="" alt="">
+                  </div>
+                  <!-- 추가메뉴 박스 -->
+                </div>
+              </div>
+              <div style="display: flex; width: 100%; justify-content: space-around;">
+                <div style="border: 1px solid black; cursor: pointer; width: calc(100%/2.15);">asd</div>
+                <div style="border: 1px solid black; cursor: pointer; width: calc(100%/2.15);">asd</div>
+              </div>
             </div>
           </div>
 
         </div>
-      </div>
+      
     </div>
   </section>
   <!-- 승엽님 -->
