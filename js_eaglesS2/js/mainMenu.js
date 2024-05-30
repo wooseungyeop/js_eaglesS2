@@ -44,3 +44,17 @@ function Side() {
 function Beverage() {
     alert('음료');
 }
+
+someElement.addEventListener(
+    "touchmove",
+    (e) => {
+      // Iterate through the list of touch points that changed
+      // since the last event and print each touch point's identifier.
+      for (let i = 0; i < e.changedTouches.length; i++) {
+        console.log(
+          `changedTouches[${i}].identifier = ${e.changedTouches[i].identifier}`,
+        );
+      }
+    },
+    false,
+  );
