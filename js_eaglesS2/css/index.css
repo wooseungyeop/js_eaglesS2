@@ -11,11 +11,11 @@
   justify-content: space-between;
   justify-items: center;
   flex: 0 1 auto;
-  height: 15%;
+  height: 10%;
 }
 
 .title {
-  background-color: rgb(248, 239, 228);
+  background-color: white;
 
 }
 
@@ -26,20 +26,28 @@
 }
 
 .logImg {
-  height: 45px;
+  width: 80px;
+  height: 40px;
+  margin: 20px 10px 1px 20px;
+}
+
+.bigFather {
+  width: 100px;
+  margin: 1px 10px 1px 10px;
 }
 
 .textBox {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 10px;
 }
 
 .slider {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 70%;
+  height: 67%;
   flex: 1 1 auto;
 }
 
@@ -96,28 +104,31 @@
 }
 
 .payMentTitle {
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: bold;
   text-align: right;
-  margin: 10px;
+  margin: 15px 20px 5px 5px;
 }
 
 .paymentInfo {
-  font-size: 30px;
+  font-size: 25px;
   text-align: right;
-  margin: 10px;
+  margin: 10px 20px 15px 5px;
 }
 
 .buttonImg {
   width: 30px;
   height: 30px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .buttonBox {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10%;
-  background-color: rgb(252, 250, 248);
+  height: 11%;
+  background-color: white;
   flex: 0 1 auto;
   
 }
@@ -126,44 +137,56 @@
   display: flex;
   align-items: center;
   border-radius: 2em;
-  border: 1px solid black;
-  width: 160px;
-  height: 50px;
+  border: 1px solid #d8d8d8;
+  width: 230px;
+  height: 60px;
   justify-content: center;
   cursor: pointer;
+  background: linear-gradient(#f9f9f9,#e5e4e4);
+  box-shadow: 1px 1px 1px 1px #bebebe;
+  font-size: 23px;
 }
 
 .takeaway {
   display: flex;
   align-items: center;
   border-radius: 2em;
-  border: 1px solid black;
-  width: 160px;
-  height: 50px;
+  border: 1px solid #d8d8d8;
+  width: 230px;
+  height: 60px;
   justify-content: center;
   cursor: pointer;
+  background: linear-gradient(#f9f9f9,#e5e4e4);
+  box-shadow: 1px 1px 1px 1px #bebebe;
+  font-size: 23px;
 }
 
 .footerBox {
   display: flex;
   justify-content: center;
   background-color: rgb(39, 39, 39);
-  height: 5%;
+  height: 5.5%;
   flex: 0 1 auto;
+  align-items: center;
 }
 
 .languageBox {
+  display: flex;
   text-align: center;
+  justify-content: center;
   color: white;
-  width: 7%;
-  height: 50%;
+  width: 15%;
+  height: 63%;
   background-color: gray;
   border-radius: 2em;
   margin-top: auto;
   margin-bottom: auto;
+  margin: 80px;
   cursor: pointer;
+  align-items: center;
 }
 
 .guideBox {
   color: white;
+  margin: 80px;
 }
