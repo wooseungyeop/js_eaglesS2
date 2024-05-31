@@ -25,18 +25,12 @@
   /* 자식 요소 전체를 중앙 정렬하기 위해, 상단 및 왼쪽 margin을 마이너스 값으로 적용하기 */
 }
 
-
-
-
-
-
-
 .slider {
   position: relative;
   overflow: hidden;
-
   width: 100%;
   height: 600px;
+  flex: 1 1 auto;
 }
 
 .slide {
@@ -45,10 +39,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 
-  animation: slider 7.5s infinite linear;
+  animation: slider 9s infinite linear;
 
 }
 
@@ -59,12 +54,12 @@
 
 .slide:nth-child(2) {
   background-image: url(../img/행사2.jpg);
-  animation-delay: -2.5s;
+  animation-delay: -3s;
 }
 
 .slide:nth-child(3) {
   background-image: url(../img/행사3.jpg);
-  animation-delay: -5s;
+  animation-delay: -6s;
 }
 
 @keyframes slider {
@@ -95,6 +90,7 @@
   flex-direction: row;
   justify-content: space-between;
   justify-items: center;
+  flex: 0 1 auto;
 }
 
 .title {
@@ -118,7 +114,7 @@
 }
 
 .payMentTitle {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   text-align: right;
   margin: 10px;
@@ -126,7 +122,7 @@
 
 .paymentInfo {
   font-size: 30px;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: right;
   margin: 10px;
 }
@@ -141,19 +137,30 @@
   justify-content: space-around;
   align-items: center;
   height: 100px;
-  background-color: rgb(248, 239, 228);
+  background-color: rgb(252, 250, 248);
+  flex: 0 1 auto;
+  
 }
 
 .here {
   display: flex;
   align-items: center;
-  border-radius: 1em;
+  border-radius: 2em;
+  border: 1px solid black;
+  width: 160px;
+  height: 50px;
+  justify-content: center;
+  
 }
 
 .takeaway {
   display: flex;
   align-items: center;
-  border-radius: 1em;
+  border-radius: 2em;
+  border: 1px solid black;
+  width: 160px;
+  height: 50px;
+  justify-content: center;
 }
 
 .footerBox {
@@ -161,6 +168,7 @@
   justify-content: center;
   background-color: rgb(39, 39, 39);
   height: 50px;
+  flex: 0 1 auto;
 }
 
 .languageBox {
