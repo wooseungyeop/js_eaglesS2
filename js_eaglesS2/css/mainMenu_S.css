@@ -50,10 +50,8 @@ article {
 }
 
 .Section_Menu_con {
-    display: flex;
-    flex-direction: column;
     overflow-y: scroll;
-    justify-content: center;
+
 }
 
 .Menu_con_row {
