@@ -76,7 +76,7 @@ footer {
   display: flex;
   flex-direction: column;
   border: 1px solid #888;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .Footer_Info_Box table {
