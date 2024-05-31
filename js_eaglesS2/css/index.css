@@ -1,35 +1,45 @@
 .All_Box {
   width: 800px;
+  height: 100vh;
   margin: 0 auto;
+  border: 1px solid #000;
 }
 
-.main_box {
-  font-family: arial;
-  font-size: 24px;
-  margin: 25px;
-  width: 350px;
-  height: 200px;
-  outline: dashed 1px black;
-  /* 설정 */
-  position: relative;
+.titleBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  flex: 0 1 auto;
+  height: 15%;
 }
 
-.mainchild_box {
-  width: 50px;
-  height: 50px;
-  /* 상하좌우 정중앙 정렬하기 */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -25px 0 0 -25px;
-  /* 자식 요소 전체를 중앙 정렬하기 위해, 상단 및 왼쪽 margin을 마이너스 값으로 적용하기 */
+.title {
+  background-color: rgb(248, 239, 228);
+
+}
+
+.imgBox {
+  display: flex;
+  flex-direction: column;
+  width: ;
+}
+
+.logImg {
+  height: 45px;
+}
+
+.textBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .slider {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 600px;
+  height: 70%;
   flex: 1 1 auto;
 }
 
@@ -85,44 +95,14 @@
   }
 }
 
-.titleBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-items: center;
-  flex: 0 1 auto;
-}
-
-.title {
-  background-color: rgb(248, 239, 228);
-
-}
-
-.imgBox {
-  display: flex;
-  flex-direction: column;
-}
-
-.logImg {
-  height: 45px;
-}
-
-.textBox {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .payMentTitle {
   font-size: 60px;
-  font-weight: bold;
   text-align: right;
   margin: 10px;
 }
 
 .paymentInfo {
   font-size: 30px;
-  font-weight: bold;
   text-align: right;
   margin: 10px;
 }
@@ -136,7 +116,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
+  height: 10%;
   background-color: rgb(252, 250, 248);
   flex: 0 1 auto;
   
@@ -150,7 +130,7 @@
   width: 160px;
   height: 50px;
   justify-content: center;
-  
+  cursor: pointer;
 }
 
 .takeaway {
@@ -161,13 +141,14 @@
   width: 160px;
   height: 50px;
   justify-content: center;
+  cursor: pointer;
 }
 
 .footerBox {
   display: flex;
   justify-content: center;
   background-color: rgb(39, 39, 39);
-  height: 50px;
+  height: 5%;
   flex: 0 1 auto;
 }
 
@@ -180,6 +161,7 @@
   border-radius: 2em;
   margin-top: auto;
   margin-bottom: auto;
+  cursor: pointer;
 }
 
 .guideBox {
