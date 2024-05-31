@@ -54,6 +54,16 @@ article {
 
 }
 
+.Section_Menu_con::-webkit-scrollbar {
+    width: 1px;
+
+}
+
+.Section_Menu_con::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 100px;
+}
+
 .Menu_con_row {
     display: flex;
     flex-direction: row;
