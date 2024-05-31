@@ -1,184 +1,132 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>マークもナルド キオスク</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/payment.css" />
+    <link rel="icon" href="./img/ealges.png" type="image/x-icon" />
+    <script src="./js/payment.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    マークもナルド
-    キオスク</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/font.css">
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" href="./css/payment.css">
-  <link rel="icon" href="./img/ealges.png" type="image/x-icon">
-</head>
+  <body>
+    <div class="All_Box" style="border: 1px solid black">
+      <!-- 필수 -->
 
-<body>
-    
-  <div class="All_Box" style=" border: 1px solid black;"> <!-- 필수 -->
-    <div style="width: 20%; margin-left: 5%;">
-    <img src="./img/빨간색세줄.png">
-    <header style="margin-top: 100px;">
+      <header>
+        <div style="width: 20%; margin-left: 5%">
+          <img src="./img/빨간색세줄.png" />
+        </div>
+      </header>
+
+      <section>
+        <!-- 해더가 없어도 일단 띄울려면 해드에 스타일 넣고 작업해야해요 나중에 스타일만 빼면 되니깐요 -->
+
+        <div>
+          <p style="font-size: 80px; font-weight: 400; text-align: center">
+            결제 수단을 <br />선택해 주세요
+          </p>
+        </div>
+
+        <div style="margin-top: 50px">
+          <p style="font-size: 40px; font-weight: 400; text-align: center">
+            현금 결제는 카운터에서 가능합니다.
+          </p>
+        </div>
+
+        <div class="goodPayment_box">
+          <div class="goodPayment_box_card">
+            <div class="goodPayment_box_card_Creditcard">
+              <div class="goodPayment_box_card_Creditcard_in">
+                <img
+                  class="goodPayment_box_card_Creditcard_img"
+                  src="./img/card.png"
+                />
+              </div>
+              <div>
+                <p class="goodPayment_box_card_Creditcard_p">신용/체크카드</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="goodPayment_box_kfccard">
+            <div class="goodPayment_box_kfccard_card">
+              <div class="goodPayment_box_kfccard_card_in">
+                <img
+                  class="goodPayment_box_kfccard_card_img"
+                  src="./img/kfc.png"
+                />
+              </div>
+              <div>
+                <p class="goodPayment_box_card1_Creditcard_p">KFC선불카드</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; margin: 40px 0 0 30px">
+          <p style="font-size: 35px; font-weight: 400; text-align: center">
+            간편결제
+          </p>
+        </div>
+
+        <div class="EasyPayment_box">
+          <div class="EasyPayment_box_card" onclick="apple()">
+            <img src="./img/applepay.svg" />
+            <p>Apple Pay</p>
+          </div>
+          <div class="EasyPayment_box_card" onclick="kakao()">
+            <img src="./img/kakaopay.svg" />
+            <p>KAKAO PAY</p>
+          </div>
+          <div class="EasyPayment_box_card" onclick="payko()">
+            <img src="./img/payco.svg" />
+            <p>PAYKO</p>
+          </div>
+        </div>
+
+        <div class="EasyPayment_box1">
+          <div class="EasyPayment_box_card1" onclick="zero()">
+            <img src="./img/zeropay.svg" />
+            <p>제로페이</p>
+          </div>
+
+          <div class="EasyPayment_box_card1" onclick="google()">
+            <img src="./img/googlepay.svg" />
+            <p>google pay</p>
+          </div>
+
+          <div class="EasyPayment_box_card1" onclick="naver()">
+            <img src="./img/naverpay.svg" />
+            <p>naver pay</p>
+          </div>
+        </div>
+
+        <div class="EasyPayment_box2">
+          <div class="EasyPayment_box_card2" onclick="lpay()">
+            <img src="./img/lpay.svg" />
+            <p>엘 페이</p>
+          </div>
+
+          <div class="EasyPayment_box_card2" onclick="toss()">
+            <img src="./img/toss.svg" />
+            <p>toss</p>
+          </div>
+
+          <div class="EasyPayment_box_card2" onclick="btn()"></div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div class="footer_box">
+            <p class="footer_box_p">이전</p>
+          </div>
+        </div>
+      </footer>
     </div>
-
-    </header>
-
-    <section>
-      <!-- 해더가 없어도 일단 띄울려면 해드에 스타일 넣고 작업해야해요 나중에 스타일만 빼면 되니깐요 -->
-
-      <div>
-        <!-- 
-          div 안에 스타일 속성이 필요없어요  
-          style="display: flex; justify-content: center; align-items: center; "
-        -->
-        <p style="font-size: 80px; font-weight: 400; text-align: center;">결제 수단을 <br>선택해 주세요</p>
-      </div>
-
-      <div style=" margin-top: 50px;">
-        <!-- 
-          display: flex; justify-content: center; align-items: center;
-          필요없어요
-         -->
-        <p style="font-size: 40px; font-weight: 400; text-align: center;">현금 결제는 카운터에서 가능합니다.</p>
-      </div>
-
-
-
-
-
-      <div style="display: flex; justify-content: space-evenly; width: 100%; margin-top: 100px;">
-
-        <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px;">
-          <!-- 
-            border-radius: 10px 10px 10px 10px; 을 더 간단하게
-            border-radius: 10px; 로 표현도 가능해요
-           -->
-          <div
-            style="display: flex; width: 100%; height: 100%;align-items: center;justify-content: center; width: 100%; height: 100%;">
-            <div style=" height: auto; max-width: 30%;">
-              <img src="./img/card.png" width="70%">
-            </div>
-            <div>
-              <p style="color: white; font-size: 30px;">신용/체크카드</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div style="width: 330px; height: 200px; background-color: red; border-radius: 10px;">
-          <div
-            style="display: flex; width: 100%; height: 100%;align-items: center;justify-content: center; width: 100%; height: 100%;">
-            <div style=" height: auto; max-width: 30%;">
-              <img src="./img/kfc.png" width="60%" style="height: auto; border-radius: 10px ;">
-            </div>
-            <div>
-              <p style="color: white; font-size: 30px;">KFC선불카드</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-      <div style="display: flex; margin: 40px 0 0 30px;">
-        <p style="font-size: 35px; font-weight: 400; text-align: center;">간편결제</p>
-      </div>
-
-
-
-
-      <div class="EasyPayment_box">
-
-        <div class="EasyPayment_box_card">
-          <img src="./img/applepay.svg">
-          <!-- 폰트가 좀 작은거같아요 -->
-          <p>Apple Pay</p>
-          <!-- 폰트가 좀 작은거같아요 -->
-        </div>
-
-
-        <div class="EasyPayment_box_card">
-          <img src="./img/kakaopay.svg">
-          <p>KAKAO PAY</p>
-        </div>
-
-        <div class="EasyPayment_box_card">
-          <img src="./img/payco.svg">
-          <p>PAYKO</p>
-        </div>
-
-      </div>
-
-
-
-
-
-      <div class="EasyPayment_box1">
-
-        <div class="EasyPayment_box_card1">
-          <img src="./img/zeropay.svg">
-          <p>제로페이</p>
-        </div>
-
-        <div class="EasyPayment_box_card1">
-          <img src="./img/googlepay.svg">
-          <p>google pay</p>
-        </div>
-
-        <div class="EasyPayment_box_card1">
-          <img src="./img/naverpay.svg">
-          <p>naver pay</p>
-        </div>
-
-      </div>
-
-
-
-      <div class="EasyPayment_box2">
-
-        <div class="EasyPayment_box_card2">
-          <img src="./img/lpay.svg">
-          <p>엘 페이</p>
-        </div>
-
-        <div class="EasyPayment_box_card2">
-          <img src="./img/toss.svg">
-          <p>toss</p>
-        </div>
-
-        <div class="EasyPayment_box_card2">
-        </div>
-
-      </div>
-
-    </section>
-
-    <footer>
-      <!-- 
-        ㄱㅏ운대 정렬 할려면 justify-content: space-evenly; 이 아니라
-        justify-content: center;
-      -->
-      <div style="display: flex; justify-content: center; width: 100%; margin-top: 70px; margin-bottom: 70px;">
-        <!--
-          이미 배경이 흰색인데 백그라운드 화이트는 불필요 
-          div 안 자식 p 태그 글자 가운대 정렬을 할려면 
-          display: flex; justify-content: center; align-items: center;
-          사용을 해도 괜찮아요
-        -->
-        <div
-          style="width: 200px; height: 60px; border: 2px solid black;  border-radius: 50px ; display: flex; justify-content: center; align-items: center;">
-          <p style="font-size: 20px; font-weight: 50; text-align: center; ">이전</p>
-        </div>
-      </div>
-
-
-    </footer>
-  </div>
-
-</body>
-
+  </body>
 </html>

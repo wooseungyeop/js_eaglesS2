@@ -3,6 +3,7 @@
     justify-content: space-evenly; 
     width: 100%; 
     margin-top: 50px;
+    
 } 
 
 .EasyPayment_box_card {
@@ -19,9 +20,12 @@
     width: 50%;
     height: auto;
     min-height: 65px;
+    cursor: pointer;
 }
 .EasyPayment_box_card > p {
     margin-top: 10px;
+    cursor: pointer;
+
 }
 
 .EasyPayment_box{
@@ -53,9 +57,11 @@
     width: 50%;
     height: auto;
     min-height: 65px;
+    cursor: pointer;
 }
 .EasyPayment_box_card1 > p {
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .EasyPayment_box2{
@@ -79,7 +85,99 @@
     width: 50%;
     height: auto;
     min-height: 65px;
+    cursor: pointer;
 }
 .EasyPayment_box_card2 > p {
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.goodPayment_box{
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    margin-top: 100px; 
+    cursor: pointer;
+}
+.goodPayment_box_card{
+    width: 330px; 
+    height: 200px; 
+    background-color: red; 
+    border-radius: 10px;
+}
+.goodPayment_box_card_Creditcard{
+    display: flex; 
+    width: 100%; 
+    height: 100%;
+    align-items: center;
+    justify-content: center; 
+    width: 100%; 
+    height: 100%;
+}
+.goodPayment_box_card_Creditcard_in{
+    height: auto; 
+    max-width: 30%;
+}
+.goodPayment_box_card_Creditcard_img {
+    width: 70%
+
+}
+.goodPayment_box_card_Creditcard_p {
+    color: white; 
+    font-size: 30px;
+}
+
+
+
+.goodPayment_box_kfccard{
+    width: 330px; 
+    height: 200px; 
+    background-color: red; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+.goodPayment_box_kfccard_card{
+    display: flex;
+     width: 100%; 
+     height: 100%;
+     align-items: center;
+     justify-content: center; 
+     width: 100%; 
+     height: 100%;
+}
+.goodPayment_box_kfccard_card_in{
+    height: auto; 
+    max-width: 30%;
+}
+.goodPayment_box_kfccard_card_img {
+    width : 60%; 
+    height:auto; 
+    border-radius: 10px;
+
+}
+.goodPayment_box_card1_Creditcard_p {
+    color: white; 
+    font-size: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.footer_box{
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footer_box_p{
+    font-size: 20px; 
+    font-weight: 50; 
+    text-align: center
 }
