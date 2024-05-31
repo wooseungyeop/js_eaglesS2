@@ -8,9 +8,10 @@
         マークもナルド
         キオスク</title>
     <link rel="stylesheet" href="./css/font.css">
-    <link rel="stylesheet" href="./css/mainPage.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/mainMenu_H.css">
     <link rel="icon" href="./img/ealges.png" type="image/x-icon">
-    
+    <script src="./js/mainMenu.js"></script>
 </head>
 
 <body>
@@ -34,13 +35,19 @@
             <div class="slide"></div>
             <div class="slide"></div>
         </div>
-        <section class="buttonBox">
-            <button class="here"><img src="./img/card.png" class="buttonImg" /> 매장 식사</button>
-            <button class="takeaway"><img src="./img/card.png" class="buttonImg" /> 포장 주문</button>
-        </section>
+        <div class="buttonBox">
+            <div class="Front_Eat" onclick='Eat()'>
+                <img src="./img/포크랑나이프.jfif" class="buttonImg" />
+                매장 식사
+            </div>
+            <div class="Front_Packaging" onclick='Packaging()'>
+                <img src="./img/포크랑나이프.jfif" class="buttonImg" />
+                포장 주문
+            </div>
+        </div>
 
         <footer class="footerBox">
-            <div class="languageBox">Lenguage</div>
+            <div class="languageBox" onclick='Lang()'>Language</div>
             <div class="guideBox">
                 <p>현금 결제는 카운터에서 가능합니다.</p>
             </div>
