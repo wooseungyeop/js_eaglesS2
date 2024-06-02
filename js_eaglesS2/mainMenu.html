@@ -93,18 +93,9 @@
 
 
   <!-- 승엽님 -->
-  <!--
-            머리 : 빨간 줄 세개
-            나의 주문 리스트
-            메뉴 박스 하나, (하나의 박스로 만들기(합계 박스 하나, 할인 박스 하나, 총 결제 금액 하나))
-            하나의 박스로 만들기(함께 구매하기 좋은 상품 박스 하나, 이미지 박스 하나)
-            하나의 박스로 만들기(이전 버튼 하나, 결제 버튼 하나)
-          -->
-  <!-- 승엽님 -->
   <section
     style="width: 100%; background-color: rgba(0, 0, 0, 0.7); padding: 20px; height: 100vh;  position: absolute; top: 0;">
     <div style="width: 40%; background-color: white; padding: 20px;  margin: 0 auto;">
-
       <div>
         <!-- 3선 영역 -->
         <div>
@@ -112,17 +103,17 @@
           <div></div>
         </div>
         <!-- 3선 영역 -->
-
         <!-- 3선 제작시 마진 추가 영역 -->
         <div style="width: 100%;">
           <p style="font-size: 2em; font-weight: bolder;"> 나의 주문 리스트 </p>
         </div>
         <!-- 3선 제작시 마진 추가 영역 -->
+
+        <!-- 메뉴, 수량, 가격 -->
         <div style="width: 100%; margin-top: 20px;">
           <div>
             <div style="height:370px; background-color: #D3D3D3;">
               <table class="list" style="width: 100%; ;">
-                <!-- 메뉴, 수량, 가격 -->
                 <thead class="meue-list" style=" height: 40px; background-color: black; color: white;  font-size:25px;">
                   <tr>
                     <td>메뉴</td>
@@ -130,6 +121,8 @@
                     <td>가격</td>
                   </tr>
                 </thead>
+
+
                 <!-- 햄버거, 수량 갯수, 가격 원 -->
                 <tbody style="font-size:25px; ">
                   <!-- for문 돌리기 -->
@@ -147,23 +140,25 @@
                   </th>
                   <!--for문 돌리기  -->
                 </tbody>
+
+
                 <!-- 햄버거, 수량 갯수, 가격 원 -->
               </table>
             </div>
 
+
             <!-- 합계, 할인, 총 결제 금액 -->
             <table class="sum-list" style="width: 100%; height: 110px; background-color: #D3D3D3; margin-top: 10px;">
-
               <tr style="border-bottom: 1px solid #999;">
                 <td>합계</td>
                 <td>6</td>
                 <td>24000</td>
               </tr>
+
               <tr style="border-bottom: 1px solid #999;">
                 <td>할인</td>
                 <td></td>
                 <td>안해줘</td>
-
               </tr>
 
               <tr>
@@ -172,6 +167,8 @@
                 <td>24000</td>
               </tr>
             </table>
+
+
             <!-- 합계, 할인, 총 결제 금액 -->
             <div class="imgs-box" style="margin-top: 30px;  overflow: hidden;">
               <p style="padding-left: 20px;">함께 구매하기 좋은 상품</p>
@@ -203,18 +200,19 @@
             <div
               style="display: flex; width: 100%; align-items: center; margin-top: 40px; justify-content: space-around;">
               <div
-                style=" align-items: center; border: 1px solid black; cursor: pointer; width: calc(100%/2.6); height: 50px; border-radius: 30px; display: flex; justify-content: center; margin-left: 10%;">
+                style=" align-items: center; border: 1px solid black; cursor: pointer; width: calc(100%/2.6); height: 50px; 
+                border-radius: 30px; display: flex; justify-content: center; margin-left: 10%;">
                 <p style="display: flex; align-content: center; ">
                   이전
                 </p>
               </div>
               <div
-                style="border: 1px solid black; cursor: pointer; width: calc(100%/2.6); height: 50px; border-radius: 30px; background-color: red; color: white;  display: flex; justify-content:center; padding: 15px; margin-right: 10%;">
+                style="border: 1px solid black; cursor: pointer; width: calc(100%/2.6); height: 50px; border-radius: 30px; 
+                background-color: red; color: white;  display: flex; justify-content:center; padding: 15px; margin-right: 10%;">
                 결제하기</div>
             </div>
           </div>
         </div>
-
       </div>
 
     </div>
@@ -250,11 +248,13 @@
         </div>
         <div style="width: 100%; height: 20%; display: flex; justify-content:space-around; margin: 15px 0 0 0; ">
           <div
-            style="width: 150px; border: 1px solid black; cursor: pointer; padding: 10px; border-radius: 30px; display: flex; justify-content:center; align-items: center; font-size: 20px;">
+            style="width: 150px; border: 1px solid black; cursor: pointer; padding: 10px; border-radius: 30px;
+             display: flex; justify-content:center; align-items: center; font-size: 20px;">
             이전
           </div>
           <div
-            style="width: 150px; margin: 0 0 0 60px; border: 1px solid black; background-color: red; cursor: pointer; padding: 10px; border-radius: 30px; display: flex; justify-content:center; color: white; align-items: center; font-size: 20px;">
+            style="width: 150px; margin: 0 0 0 60px; border: 1px solid black; background-color: red; cursor: pointer;
+             padding: 10px; border-radius: 30px; display: flex; justify-content:center; color: white; align-items: center; font-size: 20px;">
             다음
           </div>
         </div>
