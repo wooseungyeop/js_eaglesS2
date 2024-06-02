@@ -44,9 +44,8 @@ function Side() {
 function Beverage() {
     alert('음료');
 }
-setTimeout(function () {
-    document.getElementById('btnfadeIn').classList.add('fade-out');
-}, 31000);
+
+
 
 
 someElement.addEventListener(

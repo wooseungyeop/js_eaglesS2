@@ -15,7 +15,7 @@
 
 .EasyPayment_box_card {
     width: 170px;
-    height: 100px;
+    height: 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,16 +109,14 @@
 }
 
 .goodPayment_box_card {
-    width: 270px;
-    height: 130px;
+    width: calc(100%/2.5);
+    height: 180px;
     background-color: red;
     border-radius: 10px;
 }
 
 .goodPayment_box_card_Creditcard {
     display: flex;
-    width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -146,8 +144,8 @@
 
 
 .goodPayment_box_kfccard {
-    width: 270px;
-    height: 130px;
+    width: calc(100%/2.5);
+    height: 180px;
     background-color: red;
     border-radius: 10px;
     cursor: pointer;
@@ -155,8 +153,6 @@
 
 .goodPayment_box_kfccard_card {
     display: flex;
-    width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
     width: 100%;

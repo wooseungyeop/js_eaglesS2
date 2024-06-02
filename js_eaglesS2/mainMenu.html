@@ -9,8 +9,11 @@
     キオスク</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/font.css">
-  <link rel="stylesheet" href="./css/mainMenu_F.css">
+  <link rel="stylesheet" href="./css/mainMenu.css">
   <link rel="stylesheet" href="./css/mainMenu_H.css">
+  <link rel="stylesheet" href="./css/mainMenu_S.css">
+  <link rel="stylesheet" href="./css/mainMenu_F.css">
+  <script src="./js/mainMenu.js"></script>
   <link rel="icon" href="./img/ealges.png" type="image/x-icon">
 
   <style>
@@ -35,232 +38,427 @@
 <body>
   <!-- 순태님 -->
   <section class="All_Box">
-    <header>
-
-    </header>
-    <article>
-
-    </article>
-    <footer>
-      <div class=Footer-Container>
-        <div class="Footer_Top">
-          <div class="Footer_Top_left">
-            <div>주문수량</div>
-            <div>주문개수</div>
+    <section class="All_Box">
+      <header>
+        <div class="Hd">
+          <div class="Hd_Top">
+            <div class="Hd_Top_Front">
+              <div class="Front_Eat" onclick='Eat()'>매장식사</div>
+              <div class="Front_Packaging" onclick='Packaging()'>포장주문</div>
+            </div>
+            <div class="Hd_Top_Back">
+              <div onclick='Home()'>첫 화면&nbsp;</div>
+              <div onclick='Guide()'>사용안내&nbsp;</div>
+              <div onclick='FoodInfo()'>영양정보&nbsp;</div>
+              <div onclick='Lang()'>Language&nbsp;</div>
+            </div>
           </div>
-          <div class="Footer_Top_Right">
-            <div>주문금액</div>
-            <div>금액</div>
-          </div>
-        </div>
-        <div class="Footer_Info_Box">
-          <div class="Footer_Info_left">
-            <p>메뉴</p>
-            <p>메뉴명1</p>
-            <p>메뉴명2</p>
-          </div>
-          <div class="Footer_Info_middle">
-            <p>수 량</p>
-            <span></span>
-            <p>주문수량1</p> <span></span>
-            <span></span>
-            <p>주문수량1</p> <span></span>
-          </div>
-          <div class="Footer_Info_Right">
-            <p> 가 격 </p>
-            <p>가격1</p> <span></span>
-            <p>가격2</p> <span></span>
+          <div class="Hd_Nav">
+            <div onclick='Suggest()'>추천메뉴</div>
+            <div onclick='SetMenu()'>세트메뉴</div>
+            <div onclick='Buger()'>단품</div>
+            <div onclick='Side()'>사이드</div>
+            <div onclick='Beverage()'>음료</div>
           </div>
         </div>
-        <div class="Footer_Under">
-          <div class="PlusButton">
-            <a href="Plus">+</a>
+      </header>
+
+      <article>
+        <section class="Sc_Section">
+          <div class="Sc_Section_con">
+            <!-- <div class="Section_Left"> ◀︎ </div> -->
+            <div class="Section_Menu">
+              <div class="Section_Menu_con">
+                <div class="Menu_con_row">
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                </div>
+                <div class="Menu_con_row">
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                </div>
+                <div class="Menu_con_row">
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                </div>
+                <div class="Menu_con_row">
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>맛좋은햄버거</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                  <div class="con_row_card">
+                    <img src="./img/햄버거샘플.png" alt="">
+                    <p>test</p>
+                    <p>10,000,000,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="Section_Right"> ▶︎ </div> -->
           </div>
-          <div class="CouponButton">
-            <a href="useCoupon">쿠폰사용</a>
+        </section>
+      </article>
+
+      <footer>
+        <div class="Footer-Container">
+          <div class="Footer_Top">
+            <div class="Footer_Top_left">
+              <div>주문수량</div>
+              <div>4</div>
+            </div>
+            <div class="Footer_Top_Right">
+              <div>주 문 금 액</div>
+              <div>13,300</div>
+            </div>
           </div>
-          <div class="DelButton">
-            <a href="orderDelete">전체취소</a>
-          </div>
-          <div class="OrderButton">
-            <a href="orderLink">주문하기</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </section>
-  <!-- 순태님 -->
-
-
-  <!-- 승엽님 -->
-  <section
-    style="width: 100%; background-color: rgba(0, 0, 0, 0.7); padding: 20px; height: 100vh;  position: absolute; top: 0;">
-    <div style="width: 40%; background-color: white; padding: 20px;  margin: 0 auto;">
-      <div>
-        <!-- 3선 영역 -->
-        <div>
-          <div>빨간색 삼선</div>
-          <div></div>
-        </div>
-        <!-- 3선 영역 -->
-        <!-- 3선 제작시 마진 추가 영역 -->
-        <div style="width: 100%;">
-          <p style="font-size: 2em; font-weight: bolder;"> 나의 주문 리스트 </p>
-        </div>
-        <!-- 3선 제작시 마진 추가 영역 -->
-
-        <!-- 메뉴, 수량, 가격 -->
-        <div style="width: 100%; margin-top: 20px;">
-          <div>
-            <div style="height:370px; background-color: #D3D3D3;">
-              <table class="list" style="width: 100%; ;">
-                <thead class="meue-list" style=" height: 40px; background-color: black; color: white;  font-size:25px;">
-                  <tr>
-                    <td>메뉴</td>
-                    <td>수량</td>
-                    <td>가격</td>
-                  </tr>
-                </thead>
-
-
-                <!-- 햄버거, 수량 갯수, 가격 원 -->
-                <tbody style="font-size:25px; ">
-                  <!-- for문 돌리기 -->
-                  <th style="padding-top: 10px;">
-                    <tr class="메인메뉴">
-                      <td>준나게 맛있는 햄버거</td>
-                      <td>1</td>
-                      <td>1000</td>
-                    </tr>
-                    <tr style="font-size: 15px;" class="서브메뉴들">
-                      <td style="padding-top: 10px;">테스트</td>
-                      <td>테스트</td>
-                      <td>테스트</td>
-                    </tr>
+          <div class="Footer_Info_Box">
+            <table>
+              <thead>
+                <tr>
+                  <th class="col-menu">
+                    <div class="menu-name">메뉴</div>
                   </th>
-                  <!--for문 돌리기  -->
-                </tbody>
-
-
-                <!-- 햄버거, 수량 갯수, 가격 원 -->
-              </table>
-            </div>
-
-
-            <!-- 합계, 할인, 총 결제 금액 -->
-            <table class="sum-list" style="width: 100%; height: 110px; background-color: #D3D3D3; margin-top: 10px;">
-              <tr style="border-bottom: 1px solid #999;">
-                <td>합계</td>
-                <td>6</td>
-                <td>24000</td>
-              </tr>
-
-              <tr style="border-bottom: 1px solid #999;">
-                <td>할인</td>
-                <td></td>
-                <td>안해줘</td>
-              </tr>
-
-              <tr>
-                <td>총 결제 금액</td>
-                <td></td>
-                <td>24000</td>
-              </tr>
+                  <th class="col-quantity">수량</th>
+                  <th class="col-price">가격</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="col-menu">
+                    <div class="menu-name">메뉴명</div>
+                    <div class="menu-option">- 메뉴옵션</div>
+                  </td>
+                  <td class="col-quantity">
+                    <div class="quantity-con">
+                      <div class="quantity-PlusMino" onclick='Mino()'> - </div>
+                      <div>수량</div>
+                      <div class="quantity-PlusMino" onclick='Plus()'> + </div>
+                    </div>
+                  </td>
+                  <td class="col-price">
+                    <div class="price-con">
+                      <div>메뉴가격</div>
+                      <div class="price-Del" onclick='Del()'> x </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td class="col-menu">
+                    <div class="menu-name">메뉴명</div>
+                    <div class="menu-option">- 메뉴옵션</div>
+                  </td>
+                  <td class="col-quantity">
+                    <div class="quantity-con">
+                      <div class="quantity-PlusMino" onclick='Mino()'> - </div>
+                      <div>수량</div>
+                      <div class="quantity-PlusMino" onclick='Plus()'> + </div>
+                    </div>
+                  </td>
+                  <td class="col-price">
+                    <div class="price-con">
+                      <div>메뉴가격</div>
+                      <div class="price-Del" onclick='Del()'> x </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td class="col-menu">
+                    <div class="menu-name">메뉴명</div>
+                    <div class="menu-option">- 메뉴옵션</div>
+                  </td>
+                  <td class="col-quantity">
+                    <div class="quantity-con">
+                      <div class="quantity-PlusMino" onclick='Mino()'> - </div>
+                      <div>수량</div>
+                      <div class="quantity-PlusMino" onclick='Plus()'> + </div>
+                    </div>
+                  </td>
+                  <td class="col-price">
+                    <div class="price-con">
+                      <div>메뉴가격</div>
+                      <div class="price-Del" onclick='Del()'> x </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td class="col-menu">
+                    <div class="menu-name">메뉴명</div>
+                    <div class="menu-option">- 메뉴옵션</div>
+                  </td>
+                  <td class="col-quantity">
+                    <div class="quantity-con">
+                      <div class="quantity-PlusMino" onclick='Mino()'> - </div>
+                      <div>수량</div>
+                      <div class="quantity-PlusMino" onclick='Plus()'> + </div>
+                    </div>
+                  </td>
+                  <td class="col-price">
+                    <div class="price-con">
+                      <div>메뉴가격</div>
+                      <div class="price-Del" onclick='Del()'> x </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
             </table>
-
-
-            <!-- 합계, 할인, 총 결제 금액 -->
-            <div class="imgs-box" style="margin-top: 30px;  overflow: hidden;">
-              <p style="padding-left: 20px;">함께 구매하기 좋은 상품</p>
-              <!-- 추가메뉴 박스 -->
-              <!-- 좌우 버튼 -->
-              <div style=" display: flex; align-items: center; width: 100%;">
-                <div style="border: 1px solid red; width: 40px; height: 40px; border-radius: 20px;">
-                  <img src="" alt="">
-                </div>
-                <!-- 좌우 버튼 -->
-                <div
-                  style="border: 1px #999; margin-top: 20px; width: 88%; height: 150px;  display: flex; flex-direction: row; justify-content: space-around;">
-                  <div style="width: 150px; height: 150px; border: 1px solid black;">
-                    <!-- <img class="imgs-thumbnail" src="" alt="test" style=" width: 100%; height: auto; "> -->
-                  </div>
-                  <div style="width: 150px; height: 150px; border: 1px solid black;">
-                    <!-- <img class="imgs-thumbnail" src="" alt="test" style=" width: 100%; height: auto;"> -->
-                  </div>
-                  <div style="width: 150px; height: 150px; border: 1px solid black;">
-                    <!-- <img class="imgs-thumbnail" src="" alt="test" style=" width: 100%; height: auto;"> -->
-                  </div>
-                </div>
-                <div style="border: 1px solid red; width: 40px; height: 40px; border-radius: 20px;">
-                  <img src="" alt="">
-                </div>
-                <!-- 추가메뉴 박스 -->
-              </div>
+          </div>
+          <div class="Footer_Under">
+            <div class="PlusButton">
+              <a href="Plus">+</a>
             </div>
-            <div
-              style="display: flex; width: 100%; align-items: center; margin-top: 40px; justify-content: space-around;">
-              <div
-                style=" align-items: center; border: 1px solid black; cursor: pointer; width: calc(100%/2.6); height: 50px; 
-                border-radius: 30px; display: flex; justify-content: center; margin-left: 10%;">
-                <p style="display: flex; align-content: center; ">
-                  이전
-                </p>
-              </div>
-              <div
-                style="border: 1px solid black; cursor: pointer; width: calc(100%/2.6); height: 50px; border-radius: 30px; 
-                background-color: red; color: white;  display: flex; justify-content:center; padding: 15px; margin-right: 10%;">
-                결제하기</div>
+            <div class="CouponButton">
+              <a href="useCoupon">쿠폰사용</a>
+            </div>
+            <div class="DelButton">
+              <a href="orderDelete">전체취소</a>
+            </div>
+            <div class="OrderButton">
+              <a href="orderLink">주문하기</a>
             </div>
           </div>
         </div>
+      </footer>
+    </section>
+    <!-- 순태님 -->
+
+
+    <!-- 승엽님 -->
+
+
+    <!-- 
+      * display: none; 으로 인한 안보이는거니 참고
+    -->
+
+    <section
+      style="width: 100%; background-color: rgba(0, 0, 0, 0.7); padding: 20px; height: 100vh;  position: absolute; top: 0; left: 0; display: none;">
+      <!-- 
+      * display: none; 으로 인한 안보이는거니 참고
+    -->
+
+      <div style="width: 40%; background-color: white; padding: 20px;  margin: 0 auto; ">
+        <div>
+          <!-- 3선 영역 -->
+          <div>
+            <div>빨간색 삼선</div>
+            <div></div>
+          </div>
+          <!-- 3선 영역 -->
+          <!-- 3선 제작시 마진 추가 영역 -->
+          <div style="width: 100%;">
+            <p style="font-size: 2em; font-weight: bolder;"> 나의 주문 리스트 </p>
+          </div>
+          <!-- 3선 제작시 마진 추가 영역 -->
+
+          <!-- 메뉴, 수량, 가격 -->
+          <div style="width: 100%; margin-top: 20px;">
+            <div>
+              <div style="height:370px; background-color: #D3D3D3;">
+                <table class="list" style="width: 100%; ;">
+                  <thead class="meue-list"
+                    style=" height: 40px; background-color: black; color: white;  font-size:25px;">
+                    <tr>
+                      <td>메뉴</td>
+                      <td>수량</td>
+                      <td>가격</td>
+                    </tr>
+                  </thead>
+
+
+                  <!-- 햄버거, 수량 갯수, 가격 원 -->
+                  <tbody style="font-size:25px; ">
+                    <!-- for문 돌리기 -->
+                    <th style="padding-top: 10px;">
+                      <tr class="메인메뉴">
+                        <td>준나게 맛있는 햄버거</td>
+                        <td>1</td>
+                        <td>1000</td>
+                      </tr>
+                      <tr style="font-size: 15px;" class="서브메뉴들">
+                        <td style="padding-top: 10px;">테스트</td>
+                        <td>테스트</td>
+                        <td>테스트</td>
+                      </tr>
+                    </th>
+                    <!--for문 돌리기  -->
+                  </tbody>
+
+
+                  <!-- 햄버거, 수량 갯수, 가격 원 -->
+                </table>
+              </div>
+
+
+              <!-- 합계, 할인, 총 결제 금액 -->
+              <table class="sum-list" style="width: 100%; height: 110px; background-color: #D3D3D3; margin-top: 10px;">
+                <tr style="border-bottom: 1px solid #999;">
+                  <td>합계</td>
+                  <td>6</td>
+                  <td>24000</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #999;">
+                  <td>할인</td>
+                  <td></td>
+                  <td>안해줘</td>
+                </tr>
+
+                <tr>
+                  <td>총 결제 금액</td>
+                  <td></td>
+                  <td>24000</td>
+                </tr>
+              </table>
+
+
+              <!-- 합계, 할인, 총 결제 금액 -->
+              <div class="imgs-box" style="margin-top: 30px;  overflow: hidden;">
+                <p style="padding-left: 20px;">함께 구매하기 좋은 상품</p>
+                <!-- 추가메뉴 박스 -->
+                <!-- 좌우 버튼 -->
+                <div style=" display: flex; align-items: center; width: 100%;">
+                  <div style="border: 1px solid red; width: 40px; height: 40px; border-radius: 20px;">
+                    <img src="" alt="">
+                  </div>
+                  <!-- 좌우 버튼 -->
+                  <div
+                    style="border: 1px #999; margin-top: 20px; width: 88%; height: 150px;  display: flex; flex-direction: row; justify-content: space-around;">
+                    <div style="width: 150px; height: 150px; border: 1px solid black;">
+                      <!-- <img class="imgs-thumbnail" src="" alt="test" style=" width: 100%; height: auto; "> -->
+                    </div>
+                    <div style="width: 150px; height: 150px; border: 1px solid black;">
+                      <!-- <img class="imgs-thumbnail" src="" alt="test" style=" width: 100%; height: auto;"> -->
+                    </div>
+                    <div style="width: 150px; height: 150px; border: 1px solid black;">
+                      <!-- <img class="imgs-thumbnail" src="" alt="test" style=" width: 100%; height: auto;"> -->
+                    </div>
+                  </div>
+                  <div style="border: 1px solid red; width: 40px; height: 40px; border-radius: 20px;">
+                    <img src="" alt="">
+                  </div>
+                  <!-- 추가메뉴 박스 -->
+                </div>
+              </div>
+              <div
+                style="display: flex; width: 100%; align-items: center; margin-top: 40px; justify-content: space-around;">
+                <div style=" align-items: center; border: 1px solid black; cursor: pointer; width: calc(100%/2.6); height: 50px; 
+                border-radius: 30px; display: flex; justify-content: center; margin-left: 10%;">
+                  <p style="display: flex; align-content: center; ">
+                    이전
+                  </p>
+                </div>
+                <div
+                  style="border: 1px solid black; cursor: pointer; width: calc(100%/2.6); height: 50px; border-radius: 30px; 
+                background-color: red; color: white;  display: flex; justify-content:center; padding: 15px; margin-right: 10%;">
+                  결제하기</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </section>
 
-    </div>
-  </section>
 
-  <section
-    style="width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.6); padding: 20px;  position: absolute; top: 0;">
-    <div style="height: 100%; display: flex; align-items: center;">
-      <div style="width: 30%; height: 300px; background-color: white; padding: 20px;  margin: 0 auto;">
+    <!-- 
+      * display: none; 으로 인한 안보이는거니 참고
+    -->
+    <section
+      style="width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.6); padding: 20px;  position: absolute; top: 0; left: 0; display: none;">
 
-        <div style="width: 100%; display: flex; justify-content: space-around; margin: 10px; font-size: 30px;">
-          
+      <!-- 
+      * display: none; 으로 인한 안보이는거니 참고
+    -->
+      <div style="height: 100%; display: flex; align-items: center;">
+        <div style="width: 30%; height: 300px; background-color: white; padding: 20px;  margin: 0 auto;">
+
+          <div style="width: 100%; display: flex; justify-content: space-around; margin: 10px; font-size: 30px;">
+
             <p style="margin-left: -25px;">최종 결제 금액</p>
             <div style="color: red; margin-left: 30px;  ">
               <p>2조억 ㅋㅋ</p>
             </div>
-        
-        </div>
 
-        <div style="padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; margin: 30px;">
-          <p style="width: 100%; text-align: center; font-size: 20px;">식사 방식을 선택해주세요.</p>
+          </div>
 
-          <div style="display: flex; justify-content:center; margin: 15px 0 0 0;  width: 100%;">
-            <div
-              style="border: 1px solid black; cursor: pointer; background-color: black; color: white; padding: 10px; border-radius: 30px;">
-              매장 식사
-            </div>
-            <div
-              style="margin: 0 0 0 60px; border: 1px solid black; cursor: pointer; padding: 10px; border-radius: 30px;">
-              포장 주문
+          <div style="padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; margin: 30px;">
+            <p style="width: 100%; text-align: center; font-size: 20px;">식사 방식을 선택해주세요.</p>
+
+            <div style="display: flex; justify-content:center; margin: 15px 0 0 0;  width: 100%;">
+              <div
+                style="border: 1px solid black; cursor: pointer; background-color: black; color: white; padding: 10px; border-radius: 30px;">
+                매장 식사
+              </div>
+              <div
+                style="margin: 0 0 0 60px; border: 1px solid black; cursor: pointer; padding: 10px; border-radius: 30px;">
+                포장 주문
+              </div>
             </div>
           </div>
-        </div>
-        <div style="width: 100%; height: 20%; display: flex; justify-content:space-around; margin: 15px 0 0 0; ">
-          <div
-            style="width: 150px; border: 1px solid black; cursor: pointer; padding: 10px; border-radius: 30px;
+          <div style="width: 100%; height: 20%; display: flex; justify-content:space-around; margin: 15px 0 0 0; ">
+            <div style="width: 150px; border: 1px solid black; cursor: pointer; padding: 10px; border-radius: 30px;
              display: flex; justify-content:center; align-items: center; font-size: 20px;">
-            이전
-          </div>
-          <div
-            style="width: 150px; margin: 0 0 0 60px; border: 1px solid black; background-color: red; cursor: pointer;
+              이전
+            </div>
+            <div
+              style="width: 150px; margin: 0 0 0 60px; border: 1px solid black; background-color: red; cursor: pointer;
              padding: 10px; border-radius: 30px; display: flex; justify-content:center; color: white; align-items: center; font-size: 20px;">
-            다음
+              다음
+            </div>
           </div>
         </div>
-      </div>
-  </section>
-  <!--
+    </section>
+    <!--
       결과 : 최종 결제 금액 팝업 창
       나의 주문 리스트에서 결제 시 최종 결제 금액 팝업 창으로 넘어간다.
       최종 결제 금액에 div 박스 하나, div border로 선 하나 그려주기.
@@ -280,7 +478,7 @@
       div로 이전 + 다음 버튼 감싸주기
       
     -->
-  <!-- 승엽님 -->
+    <!-- 승엽님 -->
 </body>
 
 </html>
