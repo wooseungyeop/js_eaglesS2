@@ -1,14 +1,21 @@
+.All_Box {
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    border: 1px solid #000;
+  }
+
 .EasyPayment_box{
     display: flex; 
     justify-content: space-evenly; 
     width: 100%; 
-    margin-top: 50px;
+    margin-top: 20px;
     
 } 
 
 .EasyPayment_box_card {
-    width: 200px; 
-    height: 130px; 
+    width: 170px; 
+    height: 100px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,34 +24,27 @@
     border-radius: 20px ;
 }
 .EasyPayment_box_card > img {
-    width: 50%;
+    width: 40%;
     height: auto;
     min-height: 65px;
     cursor: pointer;
 }
 .EasyPayment_box_card > p {
-    margin-top: 10px;
     cursor: pointer;
 
 }
 
-.EasyPayment_box{
-    display: flex; 
-    justify-content: space-evenly; 
-    width: 100%; 
-    margin-top: 50px;
-} 
 
 .EasyPayment_box1{
     display: flex; 
     justify-content: space-evenly; 
     width: 100%; 
-    margin-top: 50px;
+    margin-top: 20px;
 } 
 
 .EasyPayment_box_card1 {
-    width: 200px; 
-    height: 130px; 
+    width: 170px; 
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,13 +54,12 @@
 }
 
 .EasyPayment_box_card1 > img {
-    width: 50%;
+    width: 40%;
     height: auto;
     min-height: 65px;
     cursor: pointer;
 }
 .EasyPayment_box_card1 > p {
-    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -68,12 +67,12 @@
     display: flex; 
     justify-content: space-evenly; 
     width: 100%; 
-    margin-top: 50px;
+    margin-top: 20px;
 } 
 
 .EasyPayment_box_card2 {
-    width: 200px; 
-    height: 130px; 
+    width: 170px; 
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,26 +81,30 @@
     border-radius: 20px ;
 }
 .EasyPayment_box_card2 > img {
-    width: 50%;
+    width: 40%;
     height: auto;
     min-height: 65px;
     cursor: pointer;
 }
 .EasyPayment_box_card2 > p {
-    margin-top: 10px;
+
     cursor: pointer;
 }
+
+
+
+
 
 .goodPayment_box{
     display: flex; 
     justify-content: space-evenly; 
     width: 100%; 
-    margin-top: 100px; 
+    margin-top: 50px; 
     cursor: pointer;
 }
 .goodPayment_box_card{
-    width: 330px; 
-    height: 200px; 
+    width: 270px; 
+    height: 130px; 
     background-color: red; 
     border-radius: 10px;
 }
@@ -129,9 +132,13 @@
 
 
 
+
+
+
+
 .goodPayment_box_kfccard{
-    width: 330px; 
-    height: 200px; 
+    width: 270px; 
+    height: 130px; 
     background-color: red; 
     border-radius: 10px; 
     cursor: pointer;
@@ -159,11 +166,13 @@
     color: white; 
     font-size: 30px;
 }
+
+
 .footer{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 70px;
 }
 .footer_box{
