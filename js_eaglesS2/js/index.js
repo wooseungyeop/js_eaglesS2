@@ -1,7 +1,7 @@
 
 setTimeout(function () {
   document.getElementById('btnfadeIn').classList.add('fade-out');
-}, 31050);
+}, 31200);
 
 document.addEventListener("DOMContentLoaded", function() {
   var div = document.querySelector("body div");
