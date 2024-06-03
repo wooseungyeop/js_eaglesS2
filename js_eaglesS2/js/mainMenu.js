@@ -46,20 +46,48 @@ function Beverage() {
 }
 
 
+function popUp(){
+    const element = document.getElementsByClassName('popup-list')[0];
+    if (element) {
+        element.style.display = 'block';
+    }
+}
+
+function popBack(){
+    const element = document.getElementsByClassName('popup-list')[0];
+    if (element) {
+        element.style.display = 'none';
+    }
+}
+
+function popUp_final(){
+    const element = document.getElementsByClassName('popup-overlay')[0];
+    if (element) {
+        element.style.display = 'block';
+    }
+}
 
 
-someElement.addEventListener(
-    "touchmove",
-    (e) => {
-      // Iterate through the list of touch points that changed
-      // since the last event and print each touch point's identifier.
-      for (let i = 0; i < e.changedTouches.length; i++) {
-        console.log(
-          `changedTouches[${i}].identifier = ${e.changedTouches[i].identifier}`,
-        );
-      }
-    },
-    false,
-  );
+function popUp_myList(){
+    const element = document.getElementsByClassName('popup-overlay')[0];
+    if (element) {
+        element.style.display = 'block';
+    }
+}
+
+
+// someElement.addEventListener(
+//     "touchmove",
+//     (e) => {
+//       // Iterate through the list of touch points that changed
+//       // since the last event and print each touch point's identifier.
+//       for (let i = 0; i < e.changedTouches.length; i++) {
+//         console.log(
+//           `changedTouches[${i}].identifier = ${e.changedTouches[i].identifier}`,
+//         );
+//       }
+//     },
+//     false,
+//   );
 
 
