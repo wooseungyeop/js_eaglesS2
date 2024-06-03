@@ -24,12 +24,13 @@
 .imgBox {
   display: flex;
   flex-direction: column;
+  margin-left: 5%;
 }
 
 .logImg {
-  width: 80px;
-  height: 40px;
-  margin: 20px 10px 1px 20px;
+  width: 130px;
+  height: 60px;
+  margin-bottom: 1px;
 }
 
 .bigFather {
