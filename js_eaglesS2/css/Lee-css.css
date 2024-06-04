@@ -24,14 +24,14 @@
     100% {
 
         text-shadow:
-            0 0 4px rgba(255, 242, 0, 0.885),  
-            0 0 11px rgba(255, 143, 23, 0.885), 
-            0 0 18px rgba(232, 255, 23, 0.885),  
-            0 0 40px rgba(255, 143, 23, 0.885), 
-            0 0 80px rgba(255, 0, 0, 0.885),  
-            0 0 90px rgba(255, 143, 23, 0.885),  
-            0 0 100px rgba(255, 236, 23, 0.885),  
-            0 0 150px rgba(232, 255, 23, 0.885);  
+            0 0 4px rgba(255, 242, 0, 0.885),
+            0 0 11px rgba(255, 143, 23, 0.885),
+            0 0 18px rgba(232, 255, 23, 0.885),
+            0 0 40px rgba(255, 143, 23, 0.885),
+            0 0 80px rgba(255, 0, 0, 0.885),
+            0 0 90px rgba(255, 143, 23, 0.885),
+            0 0 100px rgba(255, 236, 23, 0.885),
+            0 0 150px rgba(232, 255, 23, 0.885);
 
     }
 
@@ -75,4 +75,15 @@
 
 #video html body video {
     width: 100vw;
+}
+
+.skip_Box {
+    position: absolute;
+    bottom: 100px;
+    right: 350px;
+    cursor: pointer;
+}
+
+.skip_Box p {
+    color: white;
 }

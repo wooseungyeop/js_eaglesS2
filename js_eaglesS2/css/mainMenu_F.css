@@ -225,6 +225,7 @@ footer {
   border-radius: 30px;
   background-color: red;
   margin: 5px;
+  cursor: pointer;
 }
 
 .OrderButton a {
