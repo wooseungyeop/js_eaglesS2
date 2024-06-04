@@ -22,3 +22,14 @@ function lpay(){
 function toss(){
     alert('버튼이 클릭되었습니다');
 }
+function payment(){
+    alert('버튼이 클릭되었습니다');
+}
+
+function kfc(){
+    alert('버튼이 클릭되었습니다');
+}
+
+function back(){
+    alert('버튼이 클릭되었습니다');
+}
