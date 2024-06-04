@@ -12,12 +12,10 @@ function Del() {
 
 function Eat() {
     alert('먹고가요');
-    location.href="../mainMenu.html"
 }
 
 function Packaging() {
     alert('포장해요');
-    location.href="../mainMenu.html"
 }
 function Home(){
     alert('시작화면으로');
@@ -78,7 +76,6 @@ function popUp_myList(){
 }
 
 function test(){
-    location.href="../payment.html"
 }
 // someElement.addEventListener(
 //     "touchmove",
