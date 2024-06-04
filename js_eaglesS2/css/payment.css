@@ -203,9 +203,11 @@
 
 .footer_box:hover {
     background-color: red;
+   
+}
+.footer_box:hover a{
     color: white;
 }
-
 .popBox{
     justify-content: center;
     position: absolute;
@@ -213,6 +215,7 @@
     height: 100vh;
     top: 0; left: 0;
     background-color: rgba(0, 0, 0, 0.700);
+    display: none;
 }
 .popInfo{
     background-color: white;
@@ -256,4 +259,9 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
+}
+
+.paymentBox:hover {
+    background-color: red;
+    color: white;
 }
