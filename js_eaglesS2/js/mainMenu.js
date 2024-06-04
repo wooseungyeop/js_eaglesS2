@@ -51,6 +51,7 @@ function popUp(){
     if (element) {
         element.style.display = 'block';
     }
+
 }
 
 function popBack(){
@@ -71,10 +72,14 @@ function popUp_final(){
 function popUp_myList(){
     const element = document.getElementsByClassName('popup-overlay')[0];
     if (element) {
-        element.style.display = 'block';
+        element.style.display = 'none';
     }
 }
 
+function test(){
+    console.log(1)
+    location.href='../payment.html'
+}
 
 // someElement.addEventListener(
 //     "touchmove",
