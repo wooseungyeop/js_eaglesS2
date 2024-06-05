@@ -87,3 +87,20 @@
 .skip_Box p {
     color: white;
 }
+
+.back_Box_All {
+    overflow: hidden;
+    height: 100vh;
+    margin-top: -155px;
+}
+
+.back_Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/brand_1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
